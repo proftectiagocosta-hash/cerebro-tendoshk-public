@@ -18,17 +18,18 @@
 ### Fase 2 — Documentação conceitual
 
 - [x] Explicar arquitetura em camadas
-- [ ] Documentar conceitos de checkpoint
-- [ ] Documentar conceitos de curadoria
+- [x] Documentar conceitos públicos de checkpoint
+- [x] Documentar conceitos públicos de curadoria
 - [x] Separar memória bruta, memória curada e documentação pública
 - [x] Tornar todos os arquivos principais bilíngues
+- [x] Reforçar identidade pública Tendoshk sem expor o núcleo privado
 
 ### Fase 3 — Demonstrações seguras
 
 - [x] Adicionar modelo fictício de entrada de memória
-- [ ] Adicionar modelo fictício de classificação de conversa
+- [x] Adicionar modelo fictício de classificação de conversa
 - [x] Adicionar modelo fictício de checkpoint
-- [ ] Adicionar diagrama público da arquitetura
+- [x] Adicionar diagrama público da arquitetura
 
 ### Fase 4 — Maturação
 
@@ -53,17 +54,18 @@
 ### Phase 2 — Conceptual documentation
 
 - [x] Explain layered architecture
-- [ ] Document checkpoint concepts
-- [ ] Document curation concepts
+- [x] Document public checkpoint concepts
+- [x] Document public curation concepts
 - [x] Separate raw memory, curated memory, and public documentation
 - [x] Make all main files bilingual
+- [x] Strengthen public Tendoshk identity without exposing the private core
 
 ### Phase 3 — Safe demonstrations
 
 - [x] Add fictional memory entry template
-- [ ] Add fictional conversation classification template
+- [x] Add fictional conversation classification template
 - [x] Add fictional checkpoint template
-- [ ] Add public architecture diagram
+- [x] Add public architecture diagram
 
 ### Phase 4 — Maturation
 
