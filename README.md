@@ -1,78 +1,78 @@
-# Cérebro Tendoshk — Public Overview
+# Cérebro Tendoshk — Visão Geral Pública
 
-The **Cérebro Tendoshk** is an experimental public overview of an AI-assisted cognitive architecture for context continuity, memory curation, and safe project organization.
+O **Cérebro Tendoshk** é uma visão geral pública experimental de uma arquitetura cognitiva assistida por IA para continuidade de contexto, curadoria de memória e organização segura de projetos.
 
-This repository is intentionally public and sanitized. It presents concepts, principles, and fictional examples only. The complete operational implementation is not part of this public repository.
+Este repositório é intencionalmente público e sanitizado. Ele apresenta apenas conceitos, princípios e exemplos fictícios. A implementação operacional completa não faz parte deste repositório público.
 
-## Purpose
+## Propósito
 
-This project explores how AI can help individuals and teams:
+Este projeto explora como a IA pode ajudar indivíduos e equipes a:
 
-- preserve important context;
-- reduce loss of continuity across work sessions;
-- organize long-term projects;
-- transform scattered ideas into reusable structures;
-- maintain safer boundaries between public documentation and private operating material.
+- preservar contextos importantes;
+- reduzir a perda de continuidade entre sessões de trabalho;
+- organizar projetos de longo prazo;
+- transformar ideias dispersas em estruturas reutilizáveis;
+- manter limites mais seguros entre documentação pública e material operacional privado.
 
-## Core idea
+## Ideia central
 
-AI systems become more useful when paired with:
+Sistemas de IA se tornam mais úteis quando combinados com:
 
-1. organized memory;
-2. context curation;
-3. continuity protocols;
-4. explicit public/private separation;
-5. auditable, reusable documentation.
+1. memória organizada;
+2. curadoria de contexto;
+3. protocolos de continuidade;
+4. separação explícita entre público e privado;
+5. documentação auditável, reutilizável e verificável.
 
-## What this repository contains
+## O que este repositório contém
 
-- public project overview;
-- conceptual architecture;
-- security and privacy boundaries;
-- fictional templates;
-- glossary;
-- public roadmap.
+- visão geral pública do projeto;
+- arquitetura conceitual;
+- limites de segurança e privacidade;
+- modelos fictícios;
+- glossário;
+- roadmap público.
 
-## What this repository does not contain
+## O que este repositório não contém
 
-This repository does not include:
+Este repositório não inclui:
 
-- private prompts;
-- real checkpoints;
-- personal data;
-- private conversations;
-- operational memory files;
-- internal automations;
-- sensitive project history;
-- complete private-system structure.
+- prompts privados;
+- checkpoints reais;
+- dados pessoais;
+- conversas privadas;
+- arquivos operacionais de memória;
+- automações internas;
+- histórico sensível do projeto;
+- estrutura completa do sistema privado.
 
 ## Status
 
-Early public documentation layer.
+Camada inicial de documentação pública.
 
-The goal is to keep this repository useful as a public reference without exposing private or sensitive operational material.
+O objetivo é manter este repositório útil como referência pública sem expor material operacional privado ou sensível.
 
-## Philosophy
+## Filosofia
 
-The Cérebro Tendoshk is not merely a folder structure. It is an attempt to turn continuity, memory, intention, and project evolution into architecture.
+O Cérebro Tendoshk não é apenas uma estrutura de pastas. Ele é uma tentativa de transformar continuidade, memória, intenção e evolução de projetos em arquitetura.
 
-The aim is to help ideas stop disappearing, projects stop restarting from zero, and AI-assisted work become more stable, traceable, and reusable.
+O objetivo é ajudar ideias a não desaparecerem, projetos a não recomeçarem do zero e o trabalho assistido por IA a se tornar mais estável, rastreável e reutilizável.
 
-## Roadmap summary
+## Resumo do roadmap
 
-- [ ] Define the safe public layer
-- [ ] Publish conceptual documentation
-- [ ] Add sanitized templates
-- [ ] Expand the glossary
-- [ ] Document public/private boundaries
-- [ ] Prepare a safe architecture diagram
+- [ ] Definir a camada pública segura
+- [ ] Publicar documentação conceitual
+- [ ] Adicionar modelos sanitizados
+- [ ] Expandir o glossário
+- [ ] Documentar limites entre público e privado
+- [ ] Preparar um diagrama seguro da arquitetura
 
-## Security
+## Segurança
 
-This is a public showcase repository. Sensitive material must never be committed here.
+Este é um repositório público de apresentação. Material sensível nunca deve ser enviado para cá.
 
-See [`SECURITY.md`](SECURITY.md) for the public safety policy.
+Consulte [`SECURITY.md`](SECURITY.md) para ver a política pública de segurança.
 
-## License
+## Licença
 
-License to be defined.
+Licença a definir.
