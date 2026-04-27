@@ -19,6 +19,9 @@ Todas as mudanças públicas relevantes de documentação serão registradas aqu
 - Adicionados modelos sanitizados bilíngues.
 - Adicionados status e badges no README.
 - Definida licença CC BY-NC 4.0 para a documentação pública e material conceitual.
+- Reforçada a identidade pública Tendoshk com foco em continuidade entre conversas, preservação de decisões e projetos vivos.
+- Adicionado modelo sanitizado de classificação de conversa.
+- Adicionado diagrama público seguro da arquitetura.
 
 ---
 
@@ -37,3 +40,6 @@ All notable public documentation changes will be recorded here.
 - Added bilingual sanitized templates.
 - Added README status and badges.
 - Defined CC BY-NC 4.0 license for public documentation and conceptual material.
+- Strengthened the public Tendoshk identity around continuity across conversations, decision preservation, and living projects.
+- Added sanitized conversation classification template.
+- Added safe public architecture diagram.
