@@ -58,7 +58,8 @@ Sistemas de IA se tornam mais úteis quando combinados com:
 - modelos fictícios;
 - glossário;
 - roadmap público;
-- exemplos sanitizados de continuidade e curadoria.
+- exemplos sanitizados de continuidade e curadoria;
+- diagrama público seguro da arquitetura.
 
 ### O que este repositório não contém
 
@@ -82,6 +83,16 @@ A ideia é simples e exigente: uma boa ideia não deveria morrer porque uma conv
 
 O objetivo é criar uma superfície pública que inspire pessoas a protegerem seus próprios processos de pensamento, sem expor o coração privado daquilo que constroem.
 
+### Documentação principal
+
+- [`MANIFESTO.md`](MANIFESTO.md)
+- [`SECURITY.md`](SECURITY.md)
+- [`ROADMAP.md`](ROADMAP.md)
+- [`docs/arquitetura.md`](docs/arquitetura.md)
+- [`docs/diagrama_arquitetura_publica.md`](docs/diagrama_arquitetura_publica.md)
+- [`docs/limites_publicos.md`](docs/limites_publicos.md)
+- [`docs/modelo_de_separacao_publico_privado.md`](docs/modelo_de_separacao_publico_privado.md)
+
 ### Resumo do roadmap
 
 - [x] Definir a camada pública segura
@@ -90,8 +101,8 @@ O objetivo é criar uma superfície pública que inspire pessoas a protegerem se
 - [x] Expandir o glossário inicial
 - [x] Documentar limites entre público e privado
 - [x] Definir licença CC BY-NC 4.0
-- [ ] Preparar um diagrama seguro da arquitetura
-- [ ] Refinar documentação pública com identidade Tendoshk mais forte
+- [x] Preparar um diagrama seguro da arquitetura
+- [x] Refinar documentação pública com identidade Tendoshk mais forte
 
 ### Segurança
 
@@ -153,7 +164,8 @@ AI systems become more useful when paired with:
 - fictional templates;
 - glossary;
 - public roadmap;
-- sanitized examples of continuity and curation.
+- sanitized examples of continuity and curation;
+- safe public architecture diagram.
 
 ### What this repository does not contain
 
@@ -177,6 +189,16 @@ The idea is simple and demanding: a good idea should not die because a conversat
 
 The goal is to create a public surface that inspires people to protect their own thinking processes without exposing the private heart of what they build.
 
+### Main documentation
+
+- [`MANIFESTO.md`](MANIFESTO.md)
+- [`SECURITY.md`](SECURITY.md)
+- [`ROADMAP.md`](ROADMAP.md)
+- [`docs/arquitetura.md`](docs/arquitetura.md)
+- [`docs/diagrama_arquitetura_publica.md`](docs/diagrama_arquitetura_publica.md)
+- [`docs/limites_publicos.md`](docs/limites_publicos.md)
+- [`docs/modelo_de_separacao_publico_privado.md`](docs/modelo_de_separacao_publico_privado.md)
+
 ### Roadmap summary
 
 - [x] Define the safe public layer
@@ -185,8 +207,8 @@ The goal is to create a public surface that inspires people to protect their own
 - [x] Expand the initial glossary
 - [x] Document public/private boundaries
 - [x] Define CC BY-NC 4.0 license
-- [ ] Prepare a safe architecture diagram
-- [ ] Refine public documentation with stronger Tendoshk identity
+- [x] Prepare a safe architecture diagram
+- [x] Refine public documentation with stronger Tendoshk identity
 
 ### Security
 
