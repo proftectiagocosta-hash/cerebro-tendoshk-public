@@ -35,8 +35,16 @@
 
 - [x] Definir licença CC BY-NC 4.0
 - [x] Criar guia de contribuição
-- [ ] Publicar documentação versão 0.1
+- [x] Publicar documentação versão 0.1
 - [ ] Avaliar GitHub Pages
+
+### Fase 5 — Evolução pública controlada
+
+- [ ] Revisar periodicamente a vitrine pública conforme o Cérebro Tendoshk for aprofundado e construído
+- [ ] Transformar avanços reais do núcleo privado em documentação pública sanitizada, quando fizer sentido
+- [ ] Manter backup histórico no repositório original antes de substituir arquivos públicos relevantes
+- [ ] Publicar novas versões públicas apenas quando houver avanço conceitual real, e não por atualização cosmética
+- [ ] Preservar a fronteira entre inspiração pública e proteção do núcleo privado
 
 ---
 
@@ -71,5 +79,13 @@
 
 - [x] Define CC BY-NC 4.0 license
 - [x] Create contribution guide
-- [ ] Publish documentation version 0.1
+- [x] Publish documentation version 0.1
 - [ ] Evaluate GitHub Pages
+
+### Phase 5 — Controlled public evolution
+
+- [ ] Periodically review the public showcase as the Cérebro Tendoshk is deepened and built
+- [ ] Transform real private-core progress into sanitized public documentation when appropriate
+- [ ] Keep historical backup in the original repository before replacing relevant public files
+- [ ] Publish new public versions only when there is real conceptual progress, not cosmetic change
+- [ ] Preserve the boundary between public inspiration and protection of the private core
