@@ -1,0 +1,72 @@
+name: Publish release
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag_name:
+        description: "Release tag name"
+        required: true
+        default: "v0.1.0-public-foundation"
+      release_notes_path:
+        description: "Path to the release notes file"
+        required: true
+        default: "docs/releases/v0.1.0-public-foundation.md"
+
+permissions:
+  contents: write
+
+jobs:
+  publish-release:
+    name: Publish GitHub release
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Validate release notes
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ ! -f "${{ inputs.release_notes_path }}" ]; then
+            echo "Release notes file not found: ${{ inputs.release_notes_path }}"
+            exit 1
+          fi
+
+      - name: Create tag if missing
+        shell: bash
+        run: |
+          set -euo pipefail
+          TAG="${{ inputs.tag_name }}"
+          if git rev-parse "$TAG" >/dev/null 2>&1; then
+            echo "Tag already exists locally: $TAG"
+          elif git ls-remote --tags origin "refs/tags/$TAG" | grep -q "$TAG"; then
+            echo "Tag already exists remotely: $TAG"
+          else
+            git tag "$TAG" "$GITHUB_SHA"
+            git push origin "$TAG"
+          fi
+
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          TAG="${{ inputs.tag_name }}"
+          NOTES="${{ inputs.release_notes_path }}"
+
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            echo "Release already exists: $TAG"
+            gh release edit "$TAG" \
+              --title "$TAG" \
+              --notes-file "$NOTES" \
+              --latest
+          else
+            gh release create "$TAG" \
+              --title "$TAG" \
+              --notes-file "$NOTES" \
+              --latest
+          fi
