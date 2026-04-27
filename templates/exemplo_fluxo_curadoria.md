@@ -1,10 +1,50 @@
-# Sanitized Curation Flow Template
+# Modelo de Fluxo de Curadoria Sanitizado / Sanitized Curation Flow Template
 
-## Input
+[Português](#português) | [English](#english)
+
+---
+
+## Português
+
+### Entrada
+
+Breve descrição da entrada fictícia a ser avaliada.
+
+### Perguntas de curadoria
+
+1. Esta informação será útil depois?
+2. Ela pertence a um projeto, decisão, fluxo de trabalho ou referência?
+3. Ela deve virar entrada de memória, checkpoint, documento ou item descartado?
+4. Ela contém material sensível?
+5. Ela pode ser sanitizada com segurança?
+
+### Classificação
+
+Opções de exemplo:
+
+- Manter como memória
+- Converter em checkpoint
+- Converter em documentação
+- Arquivar
+- Descartar
+
+### Saída sanitizada
+
+Escreva apenas a versão segura, reutilizável e não sensível.
+
+### Observações
+
+Este é um modelo fictício e sanitizado. Ele não representa um fluxo privado real de curadoria.
+
+---
+
+## English
+
+### Input
 
 Brief description of the fictional input to be evaluated.
 
-## Curation questions
+### Curation questions
 
 1. Is this information useful later?
 2. Does it belong to a project, decision, workflow, or reference?
@@ -12,7 +52,7 @@ Brief description of the fictional input to be evaluated.
 4. Does it contain sensitive material?
 5. Can it be safely sanitized?
 
-## Classification
+### Classification
 
 Example options:
 
@@ -22,10 +62,10 @@ Example options:
 - Archive
 - Discard
 
-## Sanitized output
+### Sanitized output
 
 Write only the safe, reusable, non-sensitive version.
 
-## Notes
+### Notes
 
 This is a fictional sanitized template. It does not represent a real private curation flow.
