@@ -4,6 +4,7 @@
 ![Core](https://img.shields.io/badge/core-private%20by%20design-darkgreen)
 ![Version](https://img.shields.io/badge/version-0.1.0-lightgrey)
 ![Language](https://img.shields.io/badge/language-PT--BR%20%7C%20EN-informational)
+![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-orange)
 
 [Português](#português) | [English](#english)
 
@@ -21,6 +22,7 @@ Este repositório é intencionalmente público e sanitizado. Ele apresenta apena
 - **Versão:** 0.1.0
 - **Núcleo:** privado por design
 - **Escopo:** visão, princípios, modelos sanitizados e documentação conceitual
+- **Licença:** CC BY-NC 4.0
 
 ### Propósito
 
@@ -77,6 +79,7 @@ O objetivo é ajudar ideias a não desaparecerem, projetos a não recomeçarem d
 - [x] Adicionar modelos sanitizados
 - [x] Expandir o glossário inicial
 - [x] Documentar limites entre público e privado
+- [x] Definir licença CC BY-NC 4.0
 - [ ] Preparar um diagrama seguro da arquitetura
 
 ### Segurança
@@ -87,7 +90,7 @@ Consulte [`SECURITY.md`](SECURITY.md) para ver a política pública de seguranç
 
 ### Licença
 
-Licença a definir.
+Este repositório está licenciado sob [`CC BY-NC 4.0`](LICENSE.md) para documentação pública e material conceitual. Uso comercial não é permitido sem autorização prévia.
 
 ---
 
@@ -103,6 +106,7 @@ This repository is intentionally public and sanitized. It presents concepts, pri
 - **Version:** 0.1.0
 - **Core:** private by design
 - **Scope:** vision, principles, sanitized templates, and conceptual documentation
+- **License:** CC BY-NC 4.0
 
 ### Purpose
 
@@ -159,6 +163,7 @@ The aim is to help ideas stop disappearing, projects stop restarting from zero, 
 - [x] Add sanitized templates
 - [x] Expand the initial glossary
 - [x] Document public/private boundaries
+- [x] Define CC BY-NC 4.0 license
 - [ ] Prepare a safe architecture diagram
 
 ### Security
@@ -169,4 +174,4 @@ See [`SECURITY.md`](SECURITY.md) for the public safety policy.
 
 ### License
 
-License to be defined.
+This repository is licensed under [`CC BY-NC 4.0`](LICENSE.md) for public documentation and conceptual material. Commercial use is not permitted without prior authorization.
