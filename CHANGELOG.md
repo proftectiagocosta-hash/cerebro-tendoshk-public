@@ -15,9 +15,10 @@ Todas as mudanças públicas relevantes de documentação serão registradas aqu
 - Adicionada política de segurança bilíngue.
 - Adicionado roadmap público bilíngue.
 - Adicionado guia de contribuição bilíngue.
-- Adicionada documentação inicial.
-- Adicionados modelos sanitizados.
+- Adicionada documentação inicial bilíngue.
+- Adicionados modelos sanitizados bilíngues.
 - Adicionados status e badges no README.
+- Definida licença CC BY-NC 4.0 para a documentação pública e material conceitual.
 
 ---
 
@@ -32,6 +33,7 @@ All notable public documentation changes will be recorded here.
 - Added bilingual security policy.
 - Added bilingual public roadmap.
 - Added bilingual contribution guide.
-- Added initial documentation.
-- Added sanitized templates.
+- Added initial bilingual documentation.
+- Added bilingual sanitized templates.
 - Added README status and badges.
+- Defined CC BY-NC 4.0 license for public documentation and conceptual material.
