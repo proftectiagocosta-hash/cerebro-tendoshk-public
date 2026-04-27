@@ -12,9 +12,11 @@
 
 ## Português
 
-O **Cérebro Tendoshk** é uma visão geral pública experimental de uma arquitetura cognitiva assistida por IA para continuidade de contexto, curadoria de memória e organização segura de projetos.
+O **Cérebro Tendoshk** é uma arquitetura pública conceitual para continuidade entre conversas, curadoria de memória, preservação de decisões e organização de projetos longos com apoio de IA.
 
-Este repositório é intencionalmente público e sanitizado. Ele apresenta apenas conceitos, princípios e exemplos fictícios. A implementação operacional completa não faz parte deste repositório público.
+Ele nasce de um problema concreto: ideias importantes se perdem, decisões ficam espalhadas, projetos recomeçam do zero e a continuidade entre sessões, ambientes e ferramentas se quebra. A proposta é transformar esse fluxo fragmentado em uma camada organizada, revisável e segura de continuidade cognitiva.
+
+Este repositório é intencionalmente público e sanitizado. Ele apresenta visão, princípios, modelos fictícios e documentação conceitual. A implementação operacional completa não faz parte deste repositório público.
 
 ### Status público
 
@@ -28,21 +30,25 @@ Este repositório é intencionalmente público e sanitizado. Ele apresenta apena
 
 Este projeto explora como a IA pode ajudar indivíduos e equipes a:
 
-- preservar contextos importantes;
-- reduzir a perda de continuidade entre sessões de trabalho;
-- organizar projetos de longo prazo;
+- preservar decisões, contextos e raciocínios importantes;
+- reduzir a perda de continuidade entre conversas, sessões e ambientes de trabalho;
+- organizar projetos longos, ramificados e em evolução constante;
 - transformar ideias dispersas em estruturas reutilizáveis;
-- manter limites mais seguros entre documentação pública e material operacional privado.
+- separar com clareza documentação pública e material operacional privado;
+- criar uma base de retomada para que trabalhos vivos não precisem renascer do zero.
 
 ### Ideia central
+
+O Cérebro Tendoshk trata memória como governança de continuidade, não como simples armazenamento.
 
 Sistemas de IA se tornam mais úteis quando combinados com:
 
 1. memória organizada;
-2. curadoria de contexto;
-3. protocolos de continuidade;
-4. separação explícita entre público e privado;
-5. documentação auditável, reutilizável e verificável.
+2. curadoria de valor durável;
+3. preservação de decisões;
+4. protocolos de retomada;
+5. separação explícita entre público e privado;
+6. documentação auditável, reutilizável e verificável.
 
 ### O que este repositório contém
 
@@ -51,7 +57,8 @@ Sistemas de IA se tornam mais úteis quando combinados com:
 - limites de segurança e privacidade;
 - modelos fictícios;
 - glossário;
-- roadmap público.
+- roadmap público;
+- exemplos sanitizados de continuidade e curadoria.
 
 ### O que este repositório não contém
 
@@ -64,13 +71,16 @@ Este repositório não inclui:
 - arquivos operacionais de memória;
 - automações internas;
 - histórico sensível do projeto;
-- estrutura completa do sistema privado.
+- estrutura completa do sistema privado;
+- mecanismos internos do núcleo operacional.
 
 ### Filosofia
 
 O Cérebro Tendoshk não é apenas uma estrutura de pastas. Ele é uma tentativa de transformar continuidade, memória, intenção e evolução de projetos em arquitetura.
 
-O objetivo é ajudar ideias a não desaparecerem, projetos a não recomeçarem do zero e o trabalho assistido por IA a se tornar mais estável, rastreável e reutilizável.
+A ideia é simples e exigente: uma boa ideia não deveria morrer porque uma conversa acabou. Uma decisão importante não deveria desaparecer porque ficou presa em um chat antigo. Um projeto vivo não deveria recomeçar do zero toda vez que o contexto se quebra.
+
+O objetivo é criar uma superfície pública que inspire pessoas a protegerem seus próprios processos de pensamento, sem expor o coração privado daquilo que constroem.
 
 ### Resumo do roadmap
 
@@ -81,6 +91,7 @@ O objetivo é ajudar ideias a não desaparecerem, projetos a não recomeçarem d
 - [x] Documentar limites entre público e privado
 - [x] Definir licença CC BY-NC 4.0
 - [ ] Preparar um diagrama seguro da arquitetura
+- [ ] Refinar documentação pública com identidade Tendoshk mais forte
 
 ### Segurança
 
@@ -96,9 +107,11 @@ Este repositório está licenciado sob [`CC BY-NC 4.0`](LICENSE.md) para documen
 
 ## English
 
-The **Cérebro Tendoshk** is an experimental public overview of an AI-assisted cognitive architecture for context continuity, memory curation, and safe project organization.
+The **Cérebro Tendoshk** is a public conceptual architecture for continuity across conversations, memory curation, decision preservation, and long-term project organization with AI assistance.
 
-This repository is intentionally public and sanitized. It presents concepts, principles, and fictional examples only. The complete operational implementation is not part of this public repository.
+It comes from a concrete problem: important ideas get lost, decisions become scattered, projects restart from zero, and continuity across sessions, environments, and tools breaks down. The proposal is to turn this fragmented flow into an organized, reviewable, and safe layer of cognitive continuity.
+
+This repository is intentionally public and sanitized. It presents vision, principles, fictional templates, and conceptual documentation. The complete operational implementation is not part of this public repository.
 
 ### Public status
 
@@ -112,21 +125,25 @@ This repository is intentionally public and sanitized. It presents concepts, pri
 
 This project explores how AI can help individuals and teams:
 
-- preserve important context;
-- reduce loss of continuity across work sessions;
-- organize long-term projects;
+- preserve important decisions, contexts, and reasoning;
+- reduce loss of continuity across conversations, sessions, and work environments;
+- organize long, branching, and constantly evolving projects;
 - transform scattered ideas into reusable structures;
-- maintain safer boundaries between public documentation and private operating material.
+- clearly separate public documentation from private operational material;
+- create a resumption base so living work does not need to restart from zero.
 
 ### Core idea
+
+The Cérebro Tendoshk treats memory as continuity governance, not simple storage.
 
 AI systems become more useful when paired with:
 
 1. organized memory;
-2. context curation;
-3. continuity protocols;
-4. explicit public/private separation;
-5. auditable, reusable documentation.
+2. durable-value curation;
+3. decision preservation;
+4. resumption protocols;
+5. explicit public/private separation;
+6. auditable, reusable, and verifiable documentation.
 
 ### What this repository contains
 
@@ -135,7 +152,8 @@ AI systems become more useful when paired with:
 - security and privacy boundaries;
 - fictional templates;
 - glossary;
-- public roadmap.
+- public roadmap;
+- sanitized examples of continuity and curation.
 
 ### What this repository does not contain
 
@@ -148,13 +166,16 @@ This repository does not include:
 - operational memory files;
 - internal automations;
 - sensitive project history;
-- complete private-system structure.
+- complete private-system structure;
+- internal mechanisms of the operational core.
 
 ### Philosophy
 
 The Cérebro Tendoshk is not merely a folder structure. It is an attempt to turn continuity, memory, intention, and project evolution into architecture.
 
-The aim is to help ideas stop disappearing, projects stop restarting from zero, and AI-assisted work become more stable, traceable, and reusable.
+The idea is simple and demanding: a good idea should not die because a conversation ended. An important decision should not disappear because it stayed trapped in an old chat. A living project should not restart from zero every time context breaks.
+
+The goal is to create a public surface that inspires people to protect their own thinking processes without exposing the private heart of what they build.
 
 ### Roadmap summary
 
@@ -165,6 +186,7 @@ The aim is to help ideas stop disappearing, projects stop restarting from zero, 
 - [x] Document public/private boundaries
 - [x] Define CC BY-NC 4.0 license
 - [ ] Prepare a safe architecture diagram
+- [ ] Refine public documentation with stronger Tendoshk identity
 
 ### Security
 
