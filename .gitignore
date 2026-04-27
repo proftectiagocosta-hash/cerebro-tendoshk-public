@@ -1,0 +1,31 @@
+# Environment and secrets
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.crt
+*.token
+secrets/
+credentials/
+private/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Logs and exports
+*.log
+data/runs/
+data/exports/
+exports/private/
+raw/
+inbox/
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
