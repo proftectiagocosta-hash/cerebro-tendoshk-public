@@ -1,12 +1,37 @@
-# Changelog
+# Registro de Alterações / Changelog
+
+[Português](#português) | [English](#english)
+
+---
+
+## Português
+
+Todas as mudanças públicas relevantes de documentação serão registradas aqui.
+
+### 0.1.0 — Camada pública inicial
+
+- Adicionado README público bilíngue.
+- Adicionado manifesto bilíngue.
+- Adicionada política de segurança bilíngue.
+- Adicionado roadmap público bilíngue.
+- Adicionado guia de contribuição bilíngue.
+- Adicionada documentação inicial.
+- Adicionados modelos sanitizados.
+- Adicionados status e badges no README.
+
+---
+
+## English
 
 All notable public documentation changes will be recorded here.
 
-## 0.1.0 — Initial public layer
+### 0.1.0 — Initial public layer
 
-- Added public overview README.
-- Added manifesto.
-- Added security policy.
-- Added public roadmap.
-- Added contribution guidelines.
-- Added initial documentation and sanitized templates.
+- Added bilingual public README.
+- Added bilingual manifesto.
+- Added bilingual security policy.
+- Added bilingual public roadmap.
+- Added bilingual contribution guide.
+- Added initial documentation.
+- Added sanitized templates.
+- Added README status and badges.
