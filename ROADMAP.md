@@ -21,7 +21,7 @@
 - [ ] Documentar conceitos de checkpoint
 - [ ] Documentar conceitos de curadoria
 - [x] Separar memória bruta, memória curada e documentação pública
-- [ ] Tornar todos os arquivos principais bilíngues
+- [x] Tornar todos os arquivos principais bilíngues
 
 ### Fase 3 — Demonstrações seguras
 
@@ -32,7 +32,7 @@
 
 ### Fase 4 — Maturação
 
-- [ ] Definir licença
+- [x] Definir licença CC BY-NC 4.0
 - [x] Criar guia de contribuição
 - [ ] Publicar documentação versão 0.1
 - [ ] Avaliar GitHub Pages
@@ -56,7 +56,7 @@
 - [ ] Document checkpoint concepts
 - [ ] Document curation concepts
 - [x] Separate raw memory, curated memory, and public documentation
-- [ ] Make all main files bilingual
+- [x] Make all main files bilingual
 
 ### Phase 3 — Safe demonstrations
 
@@ -67,7 +67,7 @@
 
 ### Phase 4 — Maturation
 
-- [ ] Define license
+- [x] Define CC BY-NC 4.0 license
 - [x] Create contribution guide
 - [ ] Publish documentation version 0.1
 - [ ] Evaluate GitHub Pages
