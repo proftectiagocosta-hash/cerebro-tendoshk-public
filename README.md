@@ -1,5 +1,10 @@
 # Cérebro Tendoshk — Visão Geral Pública / Public Overview
 
+![Status](https://img.shields.io/badge/status-public%20overview-blue)
+![Core](https://img.shields.io/badge/core-private%20by%20design-darkgreen)
+![Version](https://img.shields.io/badge/version-0.1.0-lightgrey)
+![Language](https://img.shields.io/badge/language-PT--BR%20%7C%20EN-informational)
+
 [Português](#português) | [English](#english)
 
 ---
@@ -9,6 +14,13 @@
 O **Cérebro Tendoshk** é uma visão geral pública experimental de uma arquitetura cognitiva assistida por IA para continuidade de contexto, curadoria de memória e organização segura de projetos.
 
 Este repositório é intencionalmente público e sanitizado. Ele apresenta apenas conceitos, princípios e exemplos fictícios. A implementação operacional completa não faz parte deste repositório público.
+
+### Status público
+
+- **Status:** camada pública de documentação
+- **Versão:** 0.1.0
+- **Núcleo:** privado por design
+- **Escopo:** visão, princípios, modelos sanitizados e documentação conceitual
 
 ### Propósito
 
@@ -52,12 +64,6 @@ Este repositório não inclui:
 - histórico sensível do projeto;
 - estrutura completa do sistema privado.
 
-### Status
-
-Camada inicial de documentação pública.
-
-O objetivo é manter este repositório útil como referência pública sem expor material operacional privado ou sensível.
-
 ### Filosofia
 
 O Cérebro Tendoshk não é apenas uma estrutura de pastas. Ele é uma tentativa de transformar continuidade, memória, intenção e evolução de projetos em arquitetura.
@@ -66,11 +72,11 @@ O objetivo é ajudar ideias a não desaparecerem, projetos a não recomeçarem d
 
 ### Resumo do roadmap
 
-- [ ] Definir a camada pública segura
-- [ ] Publicar documentação conceitual
-- [ ] Adicionar modelos sanitizados
-- [ ] Expandir o glossário
-- [ ] Documentar limites entre público e privado
+- [x] Definir a camada pública segura
+- [x] Publicar documentação conceitual inicial
+- [x] Adicionar modelos sanitizados
+- [x] Expandir o glossário inicial
+- [x] Documentar limites entre público e privado
 - [ ] Preparar um diagrama seguro da arquitetura
 
 ### Segurança
@@ -90,6 +96,13 @@ Licença a definir.
 The **Cérebro Tendoshk** is an experimental public overview of an AI-assisted cognitive architecture for context continuity, memory curation, and safe project organization.
 
 This repository is intentionally public and sanitized. It presents concepts, principles, and fictional examples only. The complete operational implementation is not part of this public repository.
+
+### Public status
+
+- **Status:** public documentation layer
+- **Version:** 0.1.0
+- **Core:** private by design
+- **Scope:** vision, principles, sanitized templates, and conceptual documentation
 
 ### Purpose
 
@@ -133,12 +146,6 @@ This repository does not include:
 - sensitive project history;
 - complete private-system structure.
 
-### Status
-
-Early public documentation layer.
-
-The goal is to keep this repository useful as a public reference without exposing private or sensitive operational material.
-
 ### Philosophy
 
 The Cérebro Tendoshk is not merely a folder structure. It is an attempt to turn continuity, memory, intention, and project evolution into architecture.
@@ -147,11 +154,11 @@ The aim is to help ideas stop disappearing, projects stop restarting from zero, 
 
 ### Roadmap summary
 
-- [ ] Define the safe public layer
-- [ ] Publish conceptual documentation
-- [ ] Add sanitized templates
-- [ ] Expand the glossary
-- [ ] Document public/private boundaries
+- [x] Define the safe public layer
+- [x] Publish initial conceptual documentation
+- [x] Add sanitized templates
+- [x] Expand the initial glossary
+- [x] Document public/private boundaries
 - [ ] Prepare a safe architecture diagram
 
 ### Security
