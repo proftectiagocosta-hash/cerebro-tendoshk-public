@@ -1,26 +1,68 @@
-# Sanitized Memory Entry Template
+# Modelo de Entrada de Memória Sanitizada / Sanitized Memory Entry Template
 
-## Title
+[Português](#português) | [English](#english)
+
+---
+
+## Português
+
+### Título
+
+Título fictício da entrada de memória.
+
+### Categoria
+
+Exemplo: projeto, decisão, aprendizado, referência, fluxo de trabalho, ideia.
+
+### Resumo
+
+Resumo curto e sanitizado da informação a preservar.
+
+### Por que importa
+
+Explique por que esta informação pode ser útil posteriormente.
+
+### Potencial de reutilização
+
+Descreva como esta entrada poderia apoiar trabalhos futuros.
+
+### Verificação de sensibilidade
+
+- [ ] Sem dados pessoais
+- [ ] Sem credenciais reais
+- [ ] Sem caminhos privados
+- [ ] Sem conversas brutas
+- [ ] Sem lógica operacional sensível
+
+### Observações
+
+Este é um modelo fictício e sanitizado. Ele não representa uma entrada de memória privada real.
+
+---
+
+## English
+
+### Title
 
 Fictional memory entry title.
 
-## Category
+### Category
 
 Example: project, decision, learning, reference, workflow, idea.
 
-## Summary
+### Summary
 
 Short sanitized summary of the information to preserve.
 
-## Why it matters
+### Why it matters
 
 Explain why this information may be useful later.
 
-## Reuse potential
+### Reuse potential
 
 Describe how this entry could support future work.
 
-## Sensitivity check
+### Sensitivity check
 
 - [ ] No personal data
 - [ ] No real credentials
@@ -28,6 +70,6 @@ Describe how this entry could support future work.
 - [ ] No raw conversations
 - [ ] No sensitive operational logic
 
-## Notes
+### Notes
 
 This is a fictional sanitized template. It does not represent a real private memory entry.
