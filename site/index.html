@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cérebro Tendoshk — Visão Pública</title>
+  <meta name="description" content="Vitrine pública sanitizada do Cérebro Tendoshk: continuidade cognitiva, curadoria de memória e separação segura entre público e privado.">
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #070b14;
+      --panel: #101827;
+      --panel-2: #0d1320;
+      --text: #ecf4ff;
+      --muted: #9fb0c7;
+      --line: #22314a;
+      --accent: #71b7ff;
+      --accent-2: #d6b56d;
+      --good: #8ee6a8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top left, rgba(113,183,255,.22), transparent 34%), radial-gradient(circle at bottom right, rgba(214,181,109,.16), transparent 34%), var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    header { padding: 72px 24px 44px; border-bottom: 1px solid var(--line); }
+    .wrap { max-width: 1100px; margin: 0 auto; }
+    .badge { display: inline-flex; gap: 8px; align-items: center; border: 1px solid var(--line); background: rgba(16,24,39,.76); color: var(--muted); border-radius: 999px; padding: 8px 12px; font-size: 14px; }
+    h1 { font-size: clamp(42px, 7vw, 78px); line-height: .98; margin: 22px 0 16px; letter-spacing: -0.055em; }
+    h2 { font-size: clamp(26px, 4vw, 42px); line-height: 1.1; margin: 0 0 14px; letter-spacing: -0.035em; }
+    h3 { margin: 0 0 8px; font-size: 20px; }
+    .lead { color: var(--muted); max-width: 780px; font-size: clamp(18px, 2.2vw, 23px); }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+    .btn { display: inline-flex; align-items: center; justify-content: center; padding: 12px 16px; border-radius: 14px; border: 1px solid var(--line); background: var(--panel); color: var(--text); font-weight: 700; }
+    .btn.primary { border-color: rgba(113,183,255,.55); background: linear-gradient(135deg, rgba(113,183,255,.22), rgba(214,181,109,.12)); }
+    main { padding: 34px 24px 72px; }
+    section { margin: 34px 0; }
+    .grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 16px; }
+    .card { grid-column: span 4; border: 1px solid var(--line); background: linear-gradient(180deg, rgba(16,24,39,.88), rgba(13,19,32,.92)); border-radius: 24px; padding: 22px; box-shadow: 0 20px 60px rgba(0,0,0,.24); }
+    .card.wide { grid-column: span 6; }
+    .card.full { grid-column: 1 / -1; }
+    .card p, .muted { color: var(--muted); }
+    .check { color: var(--good); font-weight: 800; }
+    .warn { color: var(--accent-2); font-weight: 800; }
+    ul { padding-left: 20px; }
+    .split { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    .notice { border: 1px solid rgba(214,181,109,.46); background: rgba(214,181,109,.08); border-radius: 22px; padding: 20px; }
+    footer { border-top: 1px solid var(--line); padding: 28px 24px; color: var(--muted); }
+    code { color: #b9dcff; }
+    @media (max-width: 860px) { .card, .card.wide { grid-column: 1 / -1; } .split { grid-template-columns: 1fr; } header { padding-top: 48px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="badge">Camada pública sanitizada • núcleo privado por design</div>
+      <h1>Cérebro Tendoshk</h1>
+      <p class="lead">Uma arquitetura pública conceitual para continuidade entre conversas, curadoria de memória, preservação de decisões e organização de projetos longos com apoio de IA.</p>
+      <div class="actions">
+        <a class="btn primary" href="../README.md">Ler visão geral</a>
+        <a class="btn" href="../MANIFESTO.md">Manifesto</a>
+        <a class="btn" href="../ROADMAP.md">Roadmap público</a>
+        <a class="btn" href="../SECURITY.md">Segurança</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="grid">
+      <article class="card wide">
+        <h2>O problema</h2>
+        <p>Conversas terminam, decisões ficam espalhadas, ideias importantes se perdem e projetos vivos recomeçam do zero quando o contexto se quebra.</p>
+      </article>
+      <article class="card wide">
+        <h2>A proposta</h2>
+        <p>Tratar memória como governança de continuidade: uma camada organizada, revisável e segura para preservar contexto, decisões e retomadas.</p>
+      </article>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h3>Continuidade</h3>
+        <p>Base para retomar projetos longos sem depender apenas da memória imediata de uma conversa.</p>
+      </article>
+      <article class="card">
+        <h3>Curadoria</h3>
+        <p>Separação entre ruído temporário e valor durável que merece documentação, revisão ou reaproveitamento.</p>
+      </article>
+      <article class="card">
+        <h3>Segurança</h3>
+        <p>Fronteira explícita entre documentação pública e núcleo operacional privado.</p>
+      </article>
+    </section>
+
+    <section class="grid">
+      <article class="card full">
+        <h2>Público vs. privado</h2>
+        <div class="split">
+          <div>
+            <h3><span class="check">Permitido aqui</span></h3>
+            <ul>
+              <li>visão conceitual;</li>
+              <li>roadmap público;</li>
+              <li>modelos fictícios;</li>
+              <li>arquitetura sanitizada;</li>
+              <li>princípios e limites públicos.</li>
+            </ul>
+          </div>
+          <div>
+            <h3><span class="warn">Fora desta camada</span></h3>
+            <ul>
+              <li>conversas privadas;</li>
+              <li>checkpoints reais;</li>
+              <li>prompts privados;</li>
+              <li>logs e relatórios operacionais;</li>
+              <li>estrutura completa do núcleo privado.</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="grid">
+      <article class="card wide">
+        <h2>Arquitetura conceitual</h2>
+        <p>O Cérebro Tendoshk é organizado como uma camada pública de explicação e uma camada privada de operação. A camada pública apresenta ideias, princípios e modelos sanitizados. A camada privada preserva o trabalho real.</p>
+        <p><a href="../docs/arquitetura.md">Ver arquitetura pública</a></p>
+      </article>
+      <article class="card wide">
+        <h2>Limites públicos</h2>
+        <p>Este site não é um painel operacional. Ele é uma vitrine segura para apresentar o projeto sem expor dados, caminhos, automações internas ou histórico sensível.</p>
+        <p><a href="../docs/limites_publicos.md">Ver limites públicos</a></p>
+      </article>
+    </section>
+
+    <section class="notice">
+      <h2>Aviso de sanitização</h2>
+      <p>Esta publicação é a vitrine pública sanitizada da EV-21. Ela não contém núcleo operacional, RAWs, chats, logs reais, relatórios privados, checkpoints reais, prompts privados, segredos ou caminhos internos.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">Cérebro Tendoshk — camada pública de documentação. Núcleo privado por design.</div>
+  </footer>
+</body>
+</html>
