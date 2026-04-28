@@ -1,0 +1,53 @@
+name: pages_public_interface
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-public-interface
+  cancel-in-progress: false
+
+jobs:
+  publish-public-site:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate sanitized public site scope
+        run: |
+          test -f site/index.html
+          test -f site/README.md
+          test -f site/ev21_publicacao_sanitizada.md
+          test -f SECURITY.md
+          test -f docs/limites_publicos.md
+          if find site -type f | grep -E '\.env$|\.txt$|operations_log|checkpoint|raw|secret|secreto|private|privado|report|reports'; then
+            echo "[ERRO] Site contém arquivo/nome fora do escopo público sanitizado."
+            exit 1
+          fi
+          grep -qi 'sanitiz' site/index.html
+          grep -qi 'núcleo privado\|nucleo privado' site/index.html
+          grep -qi 'não contém\|nao contem' site/index.html
+          echo "[CONFIRMADO] escopo_publico_sanitizado=sim"
+          echo "[CONFIRMADO] publica_nucleo_privado=nao"
+          echo "[CONFIRMADO] publica_raw=nao"
+          echo "[CONFIRMADO] publica_reports_reais=nao"
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload public site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
