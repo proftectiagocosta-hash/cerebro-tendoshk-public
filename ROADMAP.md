@@ -36,15 +36,23 @@
 - [x] Definir licença CC BY-NC 4.0
 - [x] Criar guia de contribuição
 - [x] Publicar documentação versão 0.1
-- [ ] Avaliar GitHub Pages
+- [x] Avaliar GitHub Pages como vitrine sanitizada
 
 ### Fase 5 — Evolução pública controlada
 
-- [ ] Revisar periodicamente a vitrine pública conforme o Cérebro Tendoshk for aprofundado e construído
-- [ ] Transformar avanços reais do núcleo privado em documentação pública sanitizada, quando fizer sentido
-- [ ] Manter backup histórico no repositório original antes de substituir arquivos públicos relevantes
-- [ ] Publicar novas versões públicas apenas quando houver avanço conceitual real, e não por atualização cosmética
-- [ ] Preservar a fronteira entre inspiração pública e proteção do núcleo privado
+- [x] Revisar periodicamente a vitrine pública conforme o Cérebro Tendoshk for aprofundado e construído
+- [x] Transformar avanços reais do núcleo privado em documentação pública sanitizada, quando fizer sentido
+- [x] Preservar a fronteira entre inspiração pública e proteção do núcleo privado
+- [x] Publicar versão 0.2.0 com foco em governança pública de continuidade
+- [ ] Continuar publicando novas versões apenas quando houver avanço conceitual real, e não por atualização cosmética
+
+### Fase 6 — Próximas evoluções públicas possíveis
+
+- [ ] Criar exemplos sanitizados de linhas vivas de projeto
+- [ ] Criar página pública sobre governança de estado sem revelar rotinas internas
+- [ ] Criar material visual público sobre separação público/privado
+- [ ] Ampliar casos de uso para estudantes, criadores, pesquisadores e equipes pequenas
+- [ ] Avaliar uma versão pública em inglês mais polida para audiência internacional
 
 ---
 
@@ -80,12 +88,20 @@
 - [x] Define CC BY-NC 4.0 license
 - [x] Create contribution guide
 - [x] Publish documentation version 0.1
-- [ ] Evaluate GitHub Pages
+- [x] Evaluate GitHub Pages as a sanitized showcase
 
 ### Phase 5 — Controlled public evolution
 
-- [ ] Periodically review the public showcase as the Cérebro Tendoshk is deepened and built
-- [ ] Transform real private-core progress into sanitized public documentation when appropriate
-- [ ] Keep historical backup in the original repository before replacing relevant public files
-- [ ] Publish new public versions only when there is real conceptual progress, not cosmetic change
-- [ ] Preserve the boundary between public inspiration and protection of the private core
+- [x] Periodically review the public showcase as the Cérebro Tendoshk is deepened and built
+- [x] Transform real private-core progress into sanitized public documentation when appropriate
+- [x] Preserve the boundary between public inspiration and protection of the private core
+- [x] Publish version 0.2.0 focused on public continuity governance
+- [ ] Continue publishing new public versions only when there is real conceptual progress, not cosmetic change
+
+### Phase 6 — Possible next public evolutions
+
+- [ ] Create sanitized examples of living project lines
+- [ ] Create a public page about state governance without revealing internal routines
+- [ ] Create public visual material about public/private separation
+- [ ] Expand use cases for students, creators, researchers, and small teams
+- [ ] Evaluate a more polished English public version for an international audience
