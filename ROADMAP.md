@@ -44,6 +44,8 @@
 - [x] Transformar avanços reais do núcleo privado em documentação pública sanitizada, quando fizer sentido
 - [x] Preservar a fronteira entre inspiração pública e proteção do núcleo privado
 - [x] Publicar versão 0.2.0 com foco em governança pública de continuidade
+- [x] Publicar e validar a vitrine pública v0.2.0 no GitHub Pages
+- [x] Registrar v0.2.1 como marco público de publicação da vitrine
 - [ ] Continuar publicando novas versões apenas quando houver avanço conceitual real, e não por atualização cosmética
 
 ### Fase 6 — Próximas evoluções públicas possíveis
@@ -96,6 +98,8 @@
 - [x] Transform real private-core progress into sanitized public documentation when appropriate
 - [x] Preserve the boundary between public inspiration and protection of the private core
 - [x] Publish version 0.2.0 focused on public continuity governance
+- [x] Publish and validate the public v0.2.0 showcase on GitHub Pages
+- [x] Record v0.2.1 as the public showcase publication milestone
 - [ ] Continue publishing new public versions only when there is real conceptual progress, not cosmetic change
 
 ### Phase 6 — Possible next public evolutions
