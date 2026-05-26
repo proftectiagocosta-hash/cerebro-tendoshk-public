@@ -9,7 +9,8 @@ camada pública
 site estático
 conteúdo conceitual
 sem núcleo operacional privado
-vitrine v0.2.0
+vitrine v0.2.1
+navegação interna entre páginas HTML
 ```
 
 ## O que este site apresenta
@@ -20,9 +21,22 @@ vitrine v0.2.0
 - governança de estado como conceito público;
 - linhas vivas de projeto como conceito público;
 - separação entre público e privado;
-- links funcionais para documentação pública no GitHub;
+- páginas internas da própria vitrine publicada;
 - casos de uso públicos e sanitizados;
 - aviso explícito de sanitização.
+
+## Páginas internas
+
+```txt
+index.html
+manifesto.html
+arquitetura.html
+governanca-de-estado.html
+casos-de-uso.html
+limites-publicos.html
+roadmap.html
+release.html
+```
 
 ## O que este site não contém
 
@@ -44,19 +58,20 @@ EV-21 — GitHub Pages / publicação controlada da vitrine pública sanitizada
 
 A publicação deve usar somente o conteúdo deste diretório `site/`.
 
-## Ajuste v0.2.0
+## Ajuste v0.2.1
 
-A vitrine pública foi alinhada à versão `0.2.0` para refletir melhor:
+A vitrine pública foi alinhada à versão `0.2.1` para refletir melhor:
 
 ```txt
 governança pública de continuidade
+governança de estado como página interna
 retomada de projetos vivos
 separação público/privado
 casos de uso públicos
-links absolutos para documentação no GitHub
+navegação local dentro da vitrine publicada
 ```
 
-Como o workflow de Pages publica apenas a pasta `site/`, os links do site devem apontar para URLs públicas do repositório, e não depender de arquivos fora da pasta publicada.
+Como o workflow de Pages publica apenas a pasta `site/`, os links principais da vitrine devem apontar para páginas HTML dentro de `site/`, e não para arquivos Markdown no GitHub.
 
 ## Regra de manutenção
 
@@ -69,4 +84,5 @@ Antes de publicar ou alterar este diretório, verificar:
 4. O conteúdo evita material sensível ou reservado?
 5. O conteúdo está alinhado com SECURITY.md e docs/limites_publicos.md?
 6. Os links funcionam quando apenas a pasta site/ é publicada?
+7. A navegação principal permanece dentro da vitrine, salvo quando o link externo for intencional?
 ```
