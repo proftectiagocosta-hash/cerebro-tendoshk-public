@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/status-public%20overview-blue)
 ![Core](https://img.shields.io/badge/core-private%20by%20design-darkgreen)
-![Version](https://img.shields.io/badge/version-0.2.0-lightgrey)
+![Version](https://img.shields.io/badge/version-0.2.1-lightgrey)
 ![Language](https://img.shields.io/badge/language-PT--BR%20%7C%20EN-informational)
 ![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-orange)
 
@@ -18,12 +18,20 @@ Ele nasce de um problema concreto: ideias importantes se perdem, decisões ficam
 
 Este repositório é intencionalmente público e sanitizado. Ele apresenta visão, princípios, modelos fictícios e documentação conceitual. A implementação operacional completa, os registros reais, os checkpoints reais e os mecanismos internos permanecem fora deste repositório público.
 
+### Site público
+
+A vitrine pública está disponível em:
+
+```txt
+https://proftectiagocosta-hash.github.io/cerebro-tendoshk-public/
+```
+
 ### Status público
 
-- **Status:** camada pública de documentação
-- **Versão:** 0.2.0
+- **Status:** camada pública de documentação e vitrine publicada
+- **Versão:** 0.2.1
 - **Núcleo:** privado por design
-- **Escopo:** visão, princípios, modelos sanitizados, governança conceitual e documentação pública
+- **Escopo:** visão, princípios, modelos sanitizados, governança conceitual, documentação pública e vitrine GitHub Pages
 - **Licença:** CC BY-NC 4.0
 
 ### Propósito
@@ -64,6 +72,7 @@ Sistemas de IA se tornam mais úteis quando combinados com:
 - exemplos sanitizados de continuidade e curadoria;
 - diagrama público seguro da arquitetura;
 - documentação conceitual sobre separação público/privado;
+- vitrine pública publicada via GitHub Pages;
 - evolução pública controlada da vitrine.
 
 ### O que este repositório não contém
@@ -100,6 +109,7 @@ O objetivo é criar uma superfície pública que inspire pessoas a protegerem se
 - [`docs/limites_publicos.md`](docs/limites_publicos.md)
 - [`docs/modelo_de_separacao_publico_privado.md`](docs/modelo_de_separacao_publico_privado.md)
 - [`docs/releases/v0.2.0-public-governance.md`](docs/releases/v0.2.0-public-governance.md)
+- [`docs/releases/v0.2.1-public-pages.md`](docs/releases/v0.2.1-public-pages.md)
 
 ### Resumo do roadmap
 
@@ -112,6 +122,7 @@ O objetivo é criar uma superfície pública que inspire pessoas a protegerem se
 - [x] Preparar um diagrama seguro da arquitetura
 - [x] Refinar documentação pública com identidade Tendoshk mais forte
 - [x] Atualizar a vitrine para v0.2.0 com foco em governança pública de continuidade
+- [x] Publicar e validar a vitrine pública no GitHub Pages
 
 ### Segurança
 
@@ -133,12 +144,20 @@ It comes from a concrete problem: important ideas get lost, decisions become sca
 
 This repository is intentionally public and sanitized. It presents vision, principles, fictional templates, and conceptual documentation. The complete operational implementation, real records, real checkpoints, and internal mechanisms remain outside this public repository.
 
+### Public site
+
+The public showcase is available at:
+
+```txt
+https://proftectiagocosta-hash.github.io/cerebro-tendoshk-public/
+```
+
 ### Public status
 
-- **Status:** public documentation layer
-- **Version:** 0.2.0
+- **Status:** public documentation layer and published showcase
+- **Version:** 0.2.1
 - **Core:** private by design
-- **Scope:** vision, principles, sanitized templates, conceptual governance, and public documentation
+- **Scope:** vision, principles, sanitized templates, conceptual governance, public documentation, and GitHub Pages showcase
 - **License:** CC BY-NC 4.0
 
 ### Purpose
@@ -179,6 +198,7 @@ AI systems become more useful when paired with:
 - sanitized examples of continuity and curation;
 - safe public architecture diagram;
 - conceptual documentation about public/private separation;
+- public showcase published through GitHub Pages;
 - controlled public evolution of the showcase.
 
 ### What this repository does not contain
@@ -215,6 +235,7 @@ The goal is to create a public surface that inspires people to protect their own
 - [`docs/limites_publicos.md`](docs/limites_publicos.md)
 - [`docs/modelo_de_separacao_publico_privado.md`](docs/modelo_de_separacao_publico_privado.md)
 - [`docs/releases/v0.2.0-public-governance.md`](docs/releases/v0.2.0-public-governance.md)
+- [`docs/releases/v0.2.1-public-pages.md`](docs/releases/v0.2.1-public-pages.md)
 
 ### Roadmap summary
 
@@ -227,6 +248,7 @@ The goal is to create a public surface that inspires people to protect their own
 - [x] Prepare a safe public architecture diagram
 - [x] Refine public documentation with stronger Tendoshk identity
 - [x] Update the showcase to v0.2.0 with focus on public continuity governance
+- [x] Publish and validate the public showcase on GitHub Pages
 
 ### Security
 
