@@ -8,6 +8,17 @@
 
 Todas as mudanças públicas relevantes de documentação serão registradas aqui.
 
+### 0.2.1 — Publicação da vitrine pública
+
+- Publicada e validada a vitrine pública do Cérebro Tendoshk no GitHub Pages.
+- Confirmada a URL pública: `https://proftectiagocosta-hash.github.io/cerebro-tendoshk-public/`.
+- Atualizado o README público para destacar a URL publicada e a versão 0.2.1.
+- Atualizado o site público para refletir a linguagem da vitrine v0.2.0.
+- Ajustados links do site para funcionar quando apenas a pasta `site/` é publicada.
+- Atualizado `site/ev21_publicacao_sanitizada.md` para registrar a conclusão da publicação pública sanitizada.
+- Adicionada nota de release pública `docs/releases/v0.2.1-public-pages.md`.
+- Atualizados defaults do workflow de publicação de release para `v0.2.1-public-pages`.
+
 ### 0.2.0 — Governança pública de continuidade
 
 - Atualizado README público para versão 0.2.0.
@@ -38,6 +49,17 @@ Todas as mudanças públicas relevantes de documentação serão registradas aqu
 ## English
 
 All notable public documentation changes will be recorded here.
+
+### 0.2.1 — Public showcase publication
+
+- Published and validated the public Cérebro Tendoshk showcase on GitHub Pages.
+- Confirmed the public URL: `https://proftectiagocosta-hash.github.io/cerebro-tendoshk-public/`.
+- Updated the public README to highlight the published URL and version 0.2.1.
+- Updated the public site to reflect the v0.2.0 showcase language.
+- Adjusted site links so they work when only the `site/` folder is published.
+- Updated `site/ev21_publicacao_sanitizada.md` to record completion of the sanitized public publication.
+- Added public release note `docs/releases/v0.2.1-public-pages.md`.
+- Updated release publication workflow defaults to `v0.2.1-public-pages`.
 
 ### 0.2.0 — Public continuity governance
 
