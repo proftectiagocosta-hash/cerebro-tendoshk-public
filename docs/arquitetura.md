@@ -12,7 +12,7 @@ Este documento é conceitual. Ele não expõe detalhes de implementação privad
 
 ### 1. Camada de entrada
 
-Onde as informações chegam antes de serem avaliadas:
+Onde informações chegam antes de serem avaliadas:
 
 - conversas;
 - anotações;
@@ -60,7 +60,27 @@ Esta camada existe para preservar o fio entre:
 - o que não deve ser repetido;
 - o que ainda precisa amadurecer.
 
-### 5. Camada pública
+### 5. Camada de governança de estado
+
+Onde o sistema diferencia publicamente estados como:
+
+- proposto;
+- preparado;
+- registrado;
+- validado;
+- retomável;
+- descartado;
+- pendente de revisão.
+
+Esta camada evita que uma ideia pareça concluída quando ainda está apenas em preparação. No contexto público, ela é apresentada como princípio conceitual, não como implementação interna.
+
+### 6. Camada de linhas vivas
+
+Projetos longos raramente seguem linha reta. Eles geram ramificações, retornos, pausas e retomadas.
+
+A ideia pública de linha viva representa um fio de trabalho que merece continuidade própria porque contém valor, risco de perda ou necessidade de governança futura.
+
+### 7. Camada pública
 
 Onde apenas documentação sanitizada é publicada.
 
@@ -128,7 +148,27 @@ This layer exists to preserve the thread between:
 - what should not be repeated;
 - what still needs to mature.
 
-### 5. Public layer
+### 5. State governance layer
+
+Where the system publicly distinguishes states such as:
+
+- proposed;
+- prepared;
+- recorded;
+- validated;
+- resumable;
+- discarded;
+- pending review.
+
+This layer prevents an idea from appearing complete when it is still only in preparation. In the public context, it is presented as a conceptual principle, not as an internal implementation.
+
+### 6. Living lines layer
+
+Long projects rarely move in a straight line. They create branches, returns, pauses, and resumptions.
+
+The public idea of a living line represents a thread of work that deserves its own continuity because it carries value, risk of loss, or need for future governance.
+
+### 7. Public layer
 
 Where only sanitized documentation is published.
 
