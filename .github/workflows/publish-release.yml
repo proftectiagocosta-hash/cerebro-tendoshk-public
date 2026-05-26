@@ -6,11 +6,11 @@ on:
       tag_name:
         description: "Release tag name"
         required: true
-        default: "v0.1.0-public-foundation"
+        default: "v0.2.1-public-pages"
       release_notes_path:
         description: "Path to the release notes file"
         required: true
-        default: "docs/releases/v0.1.0-public-foundation.md"
+        default: "docs/releases/v0.2.1-public-pages.md"
 
 permissions:
   contents: write
