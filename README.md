@@ -71,6 +71,7 @@ Sistemas de IA se tornam mais úteis quando combinados com:
 - roadmap público;
 - exemplos sanitizados de continuidade e curadoria;
 - diagrama público seguro da arquitetura;
+- documentação conceitual sobre governança de estado;
 - documentação conceitual sobre separação público/privado;
 - vitrine pública publicada via GitHub Pages;
 - evolução pública controlada da vitrine.
@@ -106,6 +107,7 @@ O objetivo é criar uma superfície pública que inspire pessoas a protegerem se
 - [`docs/arquitetura.md`](docs/arquitetura.md)
 - [`docs/diagrama_arquitetura_publica.md`](docs/diagrama_arquitetura_publica.md)
 - [`docs/casos_de_uso.md`](docs/casos_de_uso.md)
+- [`docs/governanca_de_estado.md`](docs/governanca_de_estado.md)
 - [`docs/limites_publicos.md`](docs/limites_publicos.md)
 - [`docs/modelo_de_separacao_publico_privado.md`](docs/modelo_de_separacao_publico_privado.md)
 - [`docs/releases/v0.2.0-public-governance.md`](docs/releases/v0.2.0-public-governance.md)
@@ -197,6 +199,7 @@ AI systems become more useful when paired with:
 - public roadmap;
 - sanitized examples of continuity and curation;
 - safe public architecture diagram;
+- conceptual documentation about state governance;
 - conceptual documentation about public/private separation;
 - public showcase published through GitHub Pages;
 - controlled public evolution of the showcase.
@@ -232,6 +235,7 @@ The goal is to create a public surface that inspires people to protect their own
 - [`docs/arquitetura.md`](docs/arquitetura.md)
 - [`docs/diagrama_arquitetura_publica.md`](docs/diagrama_arquitetura_publica.md)
 - [`docs/casos_de_uso.md`](docs/casos_de_uso.md)
+- [`docs/governanca_de_estado.md`](docs/governanca_de_estado.md)
 - [`docs/limites_publicos.md`](docs/limites_publicos.md)
 - [`docs/modelo_de_separacao_publico_privado.md`](docs/modelo_de_separacao_publico_privado.md)
 - [`docs/releases/v0.2.0-public-governance.md`](docs/releases/v0.2.0-public-governance.md)
