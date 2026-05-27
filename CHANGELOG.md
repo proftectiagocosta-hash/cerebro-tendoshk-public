@@ -14,8 +14,11 @@ Todas as mudanças públicas relevantes de documentação serão registradas aqu
 - Confirmada a URL pública: `https://proftectiagocosta-hash.github.io/cerebro-tendoshk-public/`.
 - Atualizado o README público para destacar a URL publicada e a versão 0.2.1.
 - Atualizado o site público para refletir a linguagem da vitrine v0.2.0.
-- Ajustados links do site para funcionar quando apenas a pasta `site/` é publicada.
-- Atualizado `site/ev21_publicacao_sanitizada.md` para registrar a conclusão da publicação pública sanitizada.
+- Ajustados links do site para funcionar corretamente quando apenas a pasta `site/` é publicada.
+- Adicionada navegação interna HTML à vitrine publicada.
+- Adicionada página pública sanitizada sobre governança de estado.
+- Validada a publicação da navegação interna HTML via GitHub Pages.
+- Atualizado `site/ev21_publicacao_sanitizada.md` para registrar a conclusão da publicação pública sanitizada e navegação interna.
 - Adicionada nota de release pública `docs/releases/v0.2.1-public-pages.md`.
 - Atualizados defaults do workflow de publicação de release para `v0.2.1-public-pages`.
 
@@ -56,8 +59,11 @@ All notable public documentation changes will be recorded here.
 - Confirmed the public URL: `https://proftectiagocosta-hash.github.io/cerebro-tendoshk-public/`.
 - Updated the public README to highlight the published URL and version 0.2.1.
 - Updated the public site to reflect the v0.2.0 showcase language.
-- Adjusted site links so they work when only the `site/` folder is published.
-- Updated `site/ev21_publicacao_sanitizada.md` to record completion of the sanitized public publication.
+- Adjusted site links so they work correctly when only the `site/` folder is published.
+- Added internal HTML navigation to the published showcase.
+- Added a sanitized public page about state governance.
+- Validated the publication of internal HTML navigation through GitHub Pages.
+- Updated `site/ev21_publicacao_sanitizada.md` to record completion of the sanitized public publication and internal navigation.
 - Added public release note `docs/releases/v0.2.1-public-pages.md`.
 - Updated release publication workflow defaults to `v0.2.1-public-pages`.
 
