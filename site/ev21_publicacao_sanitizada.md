@@ -5,7 +5,9 @@
 ```txt
 EV-21 = CONCLUÍDA
 Publicação pública = VALIDADA
-Vitrine pública = v0.2.0 publicada
+Vitrine pública = v0.2.1 publicada
+Navegação interna HTML = VALIDADA
+Governança de estado pública = PUBLICADA
 Marco público = v0.2.1-public-pages
 ```
 
@@ -43,9 +45,10 @@ arquitetura conceitual
 princípios
 roadmap público
 modelos fictícios
-links para documentação pública
+links internos da vitrine HTML
 aviso de sanitização
 casos de uso públicos
+governança de estado pública
 ```
 
 ## Proibido
@@ -60,7 +63,7 @@ registros reais de operação
 
 ## Critério de validação
 
-A EV-21 foi considerada concluída porque:
+A EV-21 foi considerada concluída e atualizada porque:
 
 ```txt
 1. site/index.html existe;
@@ -69,7 +72,9 @@ A EV-21 foi considerada concluída porque:
 4. validação de segurança passou;
 5. deploy gerou URL pública;
 6. URL pública foi confirmada;
-7. registro final foi criado no repositório privado.
+7. páginas HTML internas foram publicadas;
+8. governança de estado foi publicada como página HTML interna;
+9. registro final foi criado no repositório privado.
 ```
 
 ## Resultado validado
@@ -80,6 +85,7 @@ publica_nucleo_privado = nao
 publica_raw = nao
 publica_reports_reais = nao
 GitHub Pages = success
+navegacao_interna_html = validada
 ```
 
 ## Regra
