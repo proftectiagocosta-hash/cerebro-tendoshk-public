@@ -46,12 +46,13 @@
 - [x] Publicar versão 0.2.0 com foco em governança pública de continuidade
 - [x] Publicar e validar a vitrine pública v0.2.0 no GitHub Pages
 - [x] Registrar v0.2.1 como marco público de publicação da vitrine
+- [x] Criar página pública sobre governança de estado sem revelar rotinas internas
+- [x] Publicar e validar navegação interna HTML da vitrine pública
 - [ ] Continuar publicando novas versões apenas quando houver avanço conceitual real, e não por atualização cosmética
 
 ### Fase 6 — Próximas evoluções públicas possíveis
 
 - [ ] Criar exemplos sanitizados de linhas vivas de projeto
-- [ ] Criar página pública sobre governança de estado sem revelar rotinas internas
 - [ ] Criar material visual público sobre separação público/privado
 - [ ] Ampliar casos de uso para estudantes, criadores, pesquisadores e equipes pequenas
 - [ ] Avaliar uma versão pública em inglês mais polida para audiência internacional
@@ -100,12 +101,13 @@
 - [x] Publish version 0.2.0 focused on public continuity governance
 - [x] Publish and validate the public v0.2.0 showcase on GitHub Pages
 - [x] Record v0.2.1 as the public showcase publication milestone
+- [x] Create a public page about state governance without revealing internal routines
+- [x] Publish and validate internal HTML navigation for the public showcase
 - [ ] Continue publishing new public versions only when there is real conceptual progress, not cosmetic change
 
 ### Phase 6 — Possible next public evolutions
 
 - [ ] Create sanitized examples of living project lines
-- [ ] Create a public page about state governance without revealing internal routines
 - [ ] Create public visual material about public/private separation
 - [ ] Expand use cases for students, creators, researchers, and small teams
 - [ ] Evaluate a more polished English public version for an international audience
