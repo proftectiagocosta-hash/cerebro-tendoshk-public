@@ -23,19 +23,76 @@ jobs:
 
       - name: Validate sanitized public site scope
         run: |
-          test -f site/index.html
-          test -f site/README.md
-          test -f site/ev21_publicacao_sanitizada.md
+          set -euo pipefail
+
+          required_site_files=(
+            site/index.html
+            site/README.md
+            site/ev21_publicacao_sanitizada.md
+            site/style.css
+            site/manifesto.html
+            site/arquitetura.html
+            site/governanca-de-estado.html
+            site/casos-de-uso.html
+            site/limites-publicos.html
+            site/roadmap.html
+            site/release.html
+          )
+
+          for file in "${required_site_files[@]}"; do
+            test -f "$file"
+          done
+
           test -f SECURITY.md
           test -f docs/limites_publicos.md
+          test -f docs/governanca_de_estado.md
+
           if find site -type f | grep -E '\.env$|\.txt$|operations_log|checkpoint|raw|secret|secreto|private|privado|report|reports'; then
             echo "[ERRO] Site contém arquivo/nome fora do escopo público sanitizado."
             exit 1
           fi
+
           grep -qi 'sanitiz' site/index.html
           grep -qi 'núcleo privado\|nucleo privado' site/index.html
           grep -qi 'não contém\|nao contem' site/index.html
+          grep -qi 'governança de estado\|governanca de estado' site/index.html
+
+          for page in site/*.html; do
+            grep -qi '<!doctype html>' "$page"
+            grep -qi 'Cérebro Tendoshk' "$page"
+          done
+
+          required_links=(
+            'href="manifesto.html"'
+            'href="arquitetura.html"'
+            'href="governanca-de-estado.html"'
+            'href="casos-de-uso.html"'
+            'href="limites-publicos.html"'
+            'href="roadmap.html"'
+            'href="release.html"'
+          )
+
+          for link in "${required_links[@]}"; do
+            grep -q "$link" site/index.html
+          done
+
+          for target in manifesto arquitetura governanca-de-estado casos-de-uso limites-publicos roadmap release; do
+            test -f "site/${target}.html"
+          done
+
+          if grep -E 'href="https://github\.com/.*/blob/main/' site/index.html; then
+            echo "[ERRO] Navegação principal não deve apontar para arquivos blob do GitHub."
+            exit 1
+          fi
+
+          if grep -E 'href="\.\./|href="docs/|href="README\.md"|href=".*\.md"' site/index.html; then
+            echo "[ERRO] Navegação principal deve permanecer em páginas HTML internas."
+            exit 1
+          fi
+
           echo "[CONFIRMADO] escopo_publico_sanitizado=sim"
+          echo "[CONFIRMADO] paginas_html_internas=sim"
+          echo "[CONFIRMADO] links_locais_validos=sim"
           echo "[CONFIRMADO] publica_nucleo_privado=nao"
           echo "[CONFIRMADO] publica_raw=nao"
           echo "[CONFIRMADO] publica_reports_reais=nao"
