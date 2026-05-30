@@ -17,8 +17,11 @@ Todas as mudanças públicas relevantes de documentação serão registradas aqu
 - Ajustados links do site para funcionar corretamente quando apenas a pasta `site/` é publicada.
 - Adicionada navegação interna HTML à vitrine publicada.
 - Adicionada página pública sanitizada sobre governança de estado.
+- Adicionados exemplos sanitizados de linhas vivas de projeto.
+- Publicada e validada a página interna `site/linhas-vivas.html`.
+- Validada a regra `linhas_vivas_publicas=sim` no workflow Pages.
 - Validada a publicação da navegação interna HTML via GitHub Pages.
-- Atualizado `site/ev21_publicacao_sanitizada.md` para registrar a conclusão da publicação pública sanitizada e navegação interna.
+- Atualizado `site/ev21_publicacao_sanitizada.md` para registrar a conclusão da publicação pública sanitizada, navegação interna e linhas vivas.
 - Adicionada nota de release pública `docs/releases/v0.2.1-public-pages.md`.
 - Atualizados defaults do workflow de publicação de release para `v0.2.1-public-pages`.
 
@@ -62,8 +65,11 @@ All notable public documentation changes will be recorded here.
 - Adjusted site links so they work correctly when only the `site/` folder is published.
 - Added internal HTML navigation to the published showcase.
 - Added a sanitized public page about state governance.
+- Added sanitized examples of living project lines.
+- Published and validated internal page `site/linhas-vivas.html`.
+- Validated rule `linhas_vivas_publicas=sim` in the Pages workflow.
 - Validated the publication of internal HTML navigation through GitHub Pages.
-- Updated `site/ev21_publicacao_sanitizada.md` to record completion of the sanitized public publication and internal navigation.
+- Updated `site/ev21_publicacao_sanitizada.md` to record completion of the sanitized public publication, internal navigation, and living lines.
 - Added public release note `docs/releases/v0.2.1-public-pages.md`.
 - Updated release publication workflow defaults to `v0.2.1-public-pages`.
 
