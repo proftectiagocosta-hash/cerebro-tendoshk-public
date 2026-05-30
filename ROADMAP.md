@@ -50,7 +50,7 @@
 - [x] Publicar e validar navegação interna HTML da vitrine pública
 - [x] Criar exemplos sanitizados de linhas vivas de projeto
 - [x] Preparar documentação da release v0.2.2-public-living-lines
-- [ ] Publicar release v0.2.2-public-living-lines
+- [x] Publicar release v0.2.2-public-living-lines
 - [ ] Continuar publicando novas versões apenas quando houver avanço conceitual real, e não por atualização cosmética
 
 ### Fase 6 — Próximas evoluções públicas possíveis
@@ -107,7 +107,7 @@
 - [x] Publish and validate internal HTML navigation for the public showcase
 - [x] Create sanitized examples of living project lines
 - [x] Prepare documentation for release v0.2.2-public-living-lines
-- [ ] Publish release v0.2.2-public-living-lines
+- [x] Publish release v0.2.2-public-living-lines
 - [ ] Continue publishing new public versions only when there is real conceptual progress, not cosmetic change
 
 ### Phase 6 — Possible next public evolutions
