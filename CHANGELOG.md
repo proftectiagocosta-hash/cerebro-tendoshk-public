@@ -8,6 +8,18 @@
 
 Todas as mudanças públicas relevantes de documentação serão registradas aqui.
 
+### 0.2.2 — Linhas vivas públicas
+
+- Consolidada a frente pública de linhas vivas de projeto.
+- Adicionada documentação pública `docs/linhas_vivas.md`.
+- Adicionada página interna `site/linhas-vivas.html`.
+- Integrada a navegação principal da vitrine com `linhas-vivas.html`.
+- Atualizado o workflow Pages para validar `site/linhas-vivas.html`, `docs/linhas_vivas.md` e o link interno correspondente.
+- Validada a regra `linhas_vivas_publicas=sim` no workflow Pages.
+- Confirmada a presença de `site/linhas-vivas.html` no artifact Pages.
+- Sincronizada a documentação pública pós-validação de linhas vivas.
+- Adicionada nota de release pública `docs/releases/v0.2.2-public-living-lines.md`.
+
 ### 0.2.1 — Publicação da vitrine pública
 
 - Publicada e validada a vitrine pública do Cérebro Tendoshk no GitHub Pages.
@@ -55,6 +67,18 @@ Todas as mudanças públicas relevantes de documentação serão registradas aqu
 ## English
 
 All notable public documentation changes will be recorded here.
+
+### 0.2.2 — Public living lines
+
+- Consolidated the public living project lines track.
+- Added public documentation `docs/linhas_vivas.md`.
+- Added internal page `site/linhas-vivas.html`.
+- Integrated the public showcase navigation with `linhas-vivas.html`.
+- Updated the Pages workflow to validate `site/linhas-vivas.html`, `docs/linhas_vivas.md`, and the corresponding internal link.
+- Validated rule `linhas_vivas_publicas=sim` in the Pages workflow.
+- Confirmed `site/linhas-vivas.html` in the Pages artifact.
+- Synchronized public documentation after living-lines validation.
+- Added public release note `docs/releases/v0.2.2-public-living-lines.md`.
 
 ### 0.2.1 — Public showcase publication
 
