@@ -22,7 +22,7 @@
 - [x] Documentar conceitos públicos de curadoria
 - [x] Separar memória bruta, memória curada e documentação pública
 - [x] Tornar todos os arquivos principais bilíngues
-- [x] Reforçar identidade pública Tendoshk sem expor o núcleo privado
+- [x] Reforçar identidade pública Tendoshk preservando a camada reservada
 
 ### Fase 3 — Demonstrações seguras
 
@@ -41,8 +41,8 @@
 ### Fase 5 — Evolução pública controlada
 
 - [x] Revisar periodicamente a vitrine pública conforme o Cérebro Tendoshk for aprofundado e construído
-- [x] Transformar avanços reais do núcleo privado em documentação pública sanitizada, quando fizer sentido
-- [x] Preservar a fronteira entre inspiração pública e proteção do núcleo privado
+- [x] Transformar avanços reais do núcleo reservado em documentação pública sanitizada, quando fizer sentido
+- [x] Preservar a fronteira entre inspiração pública e proteção do núcleo reservado
 - [x] Publicar versão 0.2.0 com foco em governança pública de continuidade
 - [x] Publicar e validar a vitrine pública v0.2.0 no GitHub Pages
 - [x] Registrar v0.2.1 como marco público de publicação da vitrine
@@ -51,11 +51,11 @@
 - [x] Criar exemplos sanitizados de linhas vivas de projeto
 - [x] Preparar documentação da release v0.2.2-public-living-lines
 - [x] Publicar release v0.2.2-public-living-lines
+- [x] Criar material visual público sobre separação entre camada pública e núcleo reservado
 - [ ] Continuar publicando novas versões apenas quando houver avanço conceitual real, e não por atualização cosmética
 
 ### Fase 6 — Próximas evoluções públicas possíveis
 
-- [ ] Criar material visual público sobre separação público/privado
 - [ ] Ampliar casos de uso para estudantes, criadores, pesquisadores e equipes pequenas
 - [ ] Avaliar uma versão pública em inglês mais polida para audiência internacional
 
@@ -79,7 +79,7 @@
 - [x] Document public curation concepts
 - [x] Separate raw memory, curated memory, and public documentation
 - [x] Make all main files bilingual
-- [x] Strengthen public Tendoshk identity without exposing the private core
+- [x] Strengthen public Tendoshk identity while preserving the reserved layer
 
 ### Phase 3 — Safe demonstrations
 
@@ -98,8 +98,8 @@
 ### Phase 5 — Controlled public evolution
 
 - [x] Periodically review the public showcase as the Cérebro Tendoshk is deepened and built
-- [x] Transform real private-core progress into sanitized public documentation when appropriate
-- [x] Preserve the boundary between public inspiration and protection of the private core
+- [x] Transform real reserved-core progress into sanitized public documentation when appropriate
+- [x] Preserve the boundary between public inspiration and reserved-core protection
 - [x] Publish version 0.2.0 focused on public continuity governance
 - [x] Publish and validate the public v0.2.0 showcase on GitHub Pages
 - [x] Record v0.2.1 as the public showcase publication milestone
@@ -108,10 +108,10 @@
 - [x] Create sanitized examples of living project lines
 - [x] Prepare documentation for release v0.2.2-public-living-lines
 - [x] Publish release v0.2.2-public-living-lines
+- [x] Create public visual material about separation between public layer and reserved core
 - [ ] Continue publishing new public versions only when there is real conceptual progress, not cosmetic change
 
 ### Phase 6 — Possible next public evolutions
 
-- [ ] Create public visual material about public/private separation
 - [ ] Expand use cases for students, creators, researchers, and small teams
 - [ ] Evaluate a more polished English public version for an international audience
