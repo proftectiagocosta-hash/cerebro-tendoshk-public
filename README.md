@@ -71,6 +71,7 @@ Sistemas de IA se tornam mais úteis quando combinados com:
 - roadmap público;
 - exemplos sanitizados de continuidade e curadoria;
 - exemplos sanitizados de linhas vivas de projeto;
+- modelo visual público de separação público/privado;
 - diagrama público seguro da arquitetura;
 - documentação conceitual sobre governança de estado;
 - documentação conceitual sobre separação público/privado;
@@ -110,6 +111,7 @@ O objetivo é criar uma superfície pública que inspire pessoas a protegerem se
 - [`docs/casos_de_uso.md`](docs/casos_de_uso.md)
 - [`docs/governanca_de_estado.md`](docs/governanca_de_estado.md)
 - [`docs/linhas_vivas.md`](docs/linhas_vivas.md)
+- [`docs/separacao_publico_privado_visual.md`](docs/separacao_publico_privado_visual.md)
 - [`docs/limites_publicos.md`](docs/limites_publicos.md)
 - [`docs/modelo_de_separacao_publico_privado.md`](docs/modelo_de_separacao_publico_privado.md)
 - [`docs/releases/v0.2.0-public-governance.md`](docs/releases/v0.2.0-public-governance.md)
@@ -129,6 +131,7 @@ O objetivo é criar uma superfície pública que inspire pessoas a protegerem se
 - [x] Atualizar a vitrine para v0.2.0 com foco em governança pública de continuidade
 - [x] Publicar e validar a vitrine pública no GitHub Pages
 - [x] Criar exemplos sanitizados de linhas vivas de projeto
+- [x] Criar material visual público sobre separação público/privado
 - [x] Preparar release pública v0.2.2-public-living-lines
 
 ### Segurança
@@ -204,6 +207,7 @@ AI systems become more useful when paired with:
 - public roadmap;
 - sanitized examples of continuity and curation;
 - sanitized examples of living project lines;
+- public visual model of public/private separation;
 - safe public architecture diagram;
 - conceptual documentation about state governance;
 - conceptual documentation about public/private separation;
@@ -243,6 +247,7 @@ The goal is to create a public surface that inspires people to protect their own
 - [`docs/casos_de_uso.md`](docs/casos_de_uso.md)
 - [`docs/governanca_de_estado.md`](docs/governanca_de_estado.md)
 - [`docs/linhas_vivas.md`](docs/linhas_vivas.md)
+- [`docs/separacao_publico_privado_visual.md`](docs/separacao_publico_privado_visual.md)
 - [`docs/limites_publicos.md`](docs/limites_publicos.md)
 - [`docs/modelo_de_separacao_publico_privado.md`](docs/modelo_de_separacao_publico_privado.md)
 - [`docs/releases/v0.2.0-public-governance.md`](docs/releases/v0.2.0-public-governance.md)
@@ -262,6 +267,7 @@ The goal is to create a public surface that inspires people to protect their own
 - [x] Update the showcase to v0.2.0 with focus on public continuity governance
 - [x] Publish and validate the public showcase on GitHub Pages
 - [x] Create sanitized examples of living project lines
+- [x] Create public visual material about public/private separation
 - [x] Prepare public release v0.2.2-public-living-lines
 
 ### Security
