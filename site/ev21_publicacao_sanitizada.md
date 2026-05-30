@@ -8,6 +8,7 @@ Publicação pública = VALIDADA
 Vitrine pública = v0.2.1 publicada
 Navegação interna HTML = VALIDADA
 Governança de estado pública = PUBLICADA
+Linhas vivas públicas = PUBLICADAS E VALIDADAS
 Marco público = v0.2.1-public-pages
 ```
 
@@ -49,6 +50,7 @@ links internos da vitrine HTML
 aviso de sanitização
 casos de uso públicos
 governança de estado pública
+linhas vivas públicas sanitizadas
 ```
 
 ## Proibido
@@ -59,6 +61,8 @@ material operacional reservado
 estado interno completo
 mecanismos privados
 registros reais de operação
+checkpoints privados
+conversas privadas
 ```
 
 ## Critério de validação
@@ -74,7 +78,9 @@ A EV-21 foi considerada concluída e atualizada porque:
 6. URL pública foi confirmada;
 7. páginas HTML internas foram publicadas;
 8. governança de estado foi publicada como página HTML interna;
-9. registro final foi criado no repositório privado.
+9. linhas vivas foram publicadas como página HTML interna;
+10. regra linhas_vivas_publicas=sim foi validada;
+11. registro final foi criado no repositório privado.
 ```
 
 ## Resultado validado
@@ -86,6 +92,7 @@ publica_raw = nao
 publica_reports_reais = nao
 GitHub Pages = success
 navegacao_interna_html = validada
+linhas_vivas_publicas = sim
 ```
 
 ## Regra
