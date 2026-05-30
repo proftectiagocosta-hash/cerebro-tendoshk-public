@@ -33,6 +33,7 @@ jobs:
             site/manifesto.html
             site/arquitetura.html
             site/governanca-de-estado.html
+            site/linhas-vivas.html
             site/casos-de-uso.html
             site/limites-publicos.html
             site/roadmap.html
@@ -46,6 +47,7 @@ jobs:
           test -f SECURITY.md
           test -f docs/limites_publicos.md
           test -f docs/governanca_de_estado.md
+          test -f docs/linhas_vivas.md
 
           if find site -type f | grep -E '\.env$|\.txt$|operations_log|checkpoint|raw|secret|secreto|private|privado|report|reports'; then
             echo "[ERRO] Site contém arquivo/nome fora do escopo público sanitizado."
@@ -56,6 +58,7 @@ jobs:
           grep -qi 'núcleo privado\|nucleo privado' site/index.html
           grep -qi 'não contém\|nao contem' site/index.html
           grep -qi 'governança de estado\|governanca de estado' site/index.html
+          grep -qi 'linhas vivas' site/index.html
 
           for page in site/*.html; do
             grep -qi '<!doctype html>' "$page"
@@ -66,6 +69,7 @@ jobs:
             'href="manifesto.html"'
             'href="arquitetura.html"'
             'href="governanca-de-estado.html"'
+            'href="linhas-vivas.html"'
             'href="casos-de-uso.html"'
             'href="limites-publicos.html"'
             'href="roadmap.html"'
@@ -76,7 +80,7 @@ jobs:
             grep -q "$link" site/index.html
           done
 
-          for target in manifesto arquitetura governanca-de-estado casos-de-uso limites-publicos roadmap release; do
+          for target in manifesto arquitetura governanca-de-estado linhas-vivas casos-de-uso limites-publicos roadmap release; do
             test -f "site/${target}.html"
           done
 
@@ -93,6 +97,7 @@ jobs:
           echo "[CONFIRMADO] escopo_publico_sanitizado=sim"
           echo "[CONFIRMADO] paginas_html_internas=sim"
           echo "[CONFIRMADO] links_locais_validos=sim"
+          echo "[CONFIRMADO] linhas_vivas_publicas=sim"
           echo "[CONFIRMADO] publica_nucleo_privado=nao"
           echo "[CONFIRMADO] publica_raw=nao"
           echo "[CONFIRMADO] publica_reports_reais=nao"
