@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/status-public%20overview-blue)
 ![Core](https://img.shields.io/badge/core-private%20by%20design-darkgreen)
-![Version](https://img.shields.io/badge/version-0.2.1-lightgrey)
+![Version](https://img.shields.io/badge/version-0.2.2-lightgrey)
 ![Language](https://img.shields.io/badge/language-PT--BR%20%7C%20EN-informational)
 ![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-orange)
 
@@ -29,9 +29,9 @@ https://proftectiagocosta-hash.github.io/cerebro-tendoshk-public/
 ### Status público
 
 - **Status:** camada pública de documentação e vitrine publicada
-- **Versão:** 0.2.1
+- **Versão:** 0.2.2
 - **Núcleo:** privado por design
-- **Escopo:** visão, princípios, modelos sanitizados, governança conceitual, documentação pública e vitrine GitHub Pages
+- **Escopo:** visão, princípios, modelos sanitizados, governança conceitual, linhas vivas, documentação pública e vitrine GitHub Pages
 - **Licença:** CC BY-NC 4.0
 
 ### Propósito
@@ -114,6 +114,7 @@ O objetivo é criar uma superfície pública que inspire pessoas a protegerem se
 - [`docs/modelo_de_separacao_publico_privado.md`](docs/modelo_de_separacao_publico_privado.md)
 - [`docs/releases/v0.2.0-public-governance.md`](docs/releases/v0.2.0-public-governance.md)
 - [`docs/releases/v0.2.1-public-pages.md`](docs/releases/v0.2.1-public-pages.md)
+- [`docs/releases/v0.2.2-public-living-lines.md`](docs/releases/v0.2.2-public-living-lines.md)
 
 ### Resumo do roadmap
 
@@ -128,6 +129,7 @@ O objetivo é criar uma superfície pública que inspire pessoas a protegerem se
 - [x] Atualizar a vitrine para v0.2.0 com foco em governança pública de continuidade
 - [x] Publicar e validar a vitrine pública no GitHub Pages
 - [x] Criar exemplos sanitizados de linhas vivas de projeto
+- [x] Preparar release pública v0.2.2-public-living-lines
 
 ### Segurança
 
@@ -160,9 +162,9 @@ https://proftectiagocosta-hash.github.io/cerebro-tendoshk-public/
 ### Public status
 
 - **Status:** public documentation layer and published showcase
-- **Version:** 0.2.1
+- **Version:** 0.2.2
 - **Core:** private by design
-- **Scope:** vision, principles, sanitized templates, conceptual governance, public documentation, and GitHub Pages showcase
+- **Scope:** vision, principles, sanitized templates, conceptual governance, living lines, public documentation, and GitHub Pages showcase
 - **License:** CC BY-NC 4.0
 
 ### Purpose
@@ -245,6 +247,7 @@ The goal is to create a public surface that inspires people to protect their own
 - [`docs/modelo_de_separacao_publico_privado.md`](docs/modelo_de_separacao_publico_privado.md)
 - [`docs/releases/v0.2.0-public-governance.md`](docs/releases/v0.2.0-public-governance.md)
 - [`docs/releases/v0.2.1-public-pages.md`](docs/releases/v0.2.1-public-pages.md)
+- [`docs/releases/v0.2.2-public-living-lines.md`](docs/releases/v0.2.2-public-living-lines.md)
 
 ### Roadmap summary
 
@@ -259,6 +262,7 @@ The goal is to create a public surface that inspires people to protect their own
 - [x] Update the showcase to v0.2.0 with focus on public continuity governance
 - [x] Publish and validate the public showcase on GitHub Pages
 - [x] Create sanitized examples of living project lines
+- [x] Prepare public release v0.2.2-public-living-lines
 
 ### Security
 
