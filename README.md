@@ -70,6 +70,7 @@ Sistemas de IA se tornam mais úteis quando combinados com:
 - glossário;
 - roadmap público;
 - exemplos sanitizados de continuidade e curadoria;
+- exemplos sanitizados de linhas vivas de projeto;
 - diagrama público seguro da arquitetura;
 - documentação conceitual sobre governança de estado;
 - documentação conceitual sobre separação público/privado;
@@ -108,6 +109,7 @@ O objetivo é criar uma superfície pública que inspire pessoas a protegerem se
 - [`docs/diagrama_arquitetura_publica.md`](docs/diagrama_arquitetura_publica.md)
 - [`docs/casos_de_uso.md`](docs/casos_de_uso.md)
 - [`docs/governanca_de_estado.md`](docs/governanca_de_estado.md)
+- [`docs/linhas_vivas.md`](docs/linhas_vivas.md)
 - [`docs/limites_publicos.md`](docs/limites_publicos.md)
 - [`docs/modelo_de_separacao_publico_privado.md`](docs/modelo_de_separacao_publico_privado.md)
 - [`docs/releases/v0.2.0-public-governance.md`](docs/releases/v0.2.0-public-governance.md)
@@ -125,6 +127,7 @@ O objetivo é criar uma superfície pública que inspire pessoas a protegerem se
 - [x] Refinar documentação pública com identidade Tendoshk mais forte
 - [x] Atualizar a vitrine para v0.2.0 com foco em governança pública de continuidade
 - [x] Publicar e validar a vitrine pública no GitHub Pages
+- [x] Criar exemplos sanitizados de linhas vivas de projeto
 
 ### Segurança
 
@@ -198,6 +201,7 @@ AI systems become more useful when paired with:
 - glossary;
 - public roadmap;
 - sanitized examples of continuity and curation;
+- sanitized examples of living project lines;
 - safe public architecture diagram;
 - conceptual documentation about state governance;
 - conceptual documentation about public/private separation;
@@ -236,6 +240,7 @@ The goal is to create a public surface that inspires people to protect their own
 - [`docs/diagrama_arquitetura_publica.md`](docs/diagrama_arquitetura_publica.md)
 - [`docs/casos_de_uso.md`](docs/casos_de_uso.md)
 - [`docs/governanca_de_estado.md`](docs/governanca_de_estado.md)
+- [`docs/linhas_vivas.md`](docs/linhas_vivas.md)
 - [`docs/limites_publicos.md`](docs/limites_publicos.md)
 - [`docs/modelo_de_separacao_publico_privado.md`](docs/modelo_de_separacao_publico_privado.md)
 - [`docs/releases/v0.2.0-public-governance.md`](docs/releases/v0.2.0-public-governance.md)
@@ -253,6 +258,7 @@ The goal is to create a public surface that inspires people to protect their own
 - [x] Refine public documentation with stronger Tendoshk identity
 - [x] Update the showcase to v0.2.0 with focus on public continuity governance
 - [x] Publish and validate the public showcase on GitHub Pages
+- [x] Create sanitized examples of living project lines
 
 ### Security
 
