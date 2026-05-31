@@ -31,7 +31,7 @@ https://proftectiagocosta-hash.github.io/cerebro-tendoshk-public/
 - **Status:** camada pública de documentação e vitrine publicada
 - **Versão:** 0.2.2
 - **Núcleo:** privado por design
-- **Escopo:** visão, princípios, modelos sanitizados, governança conceitual, linhas vivas, documentação pública e vitrine GitHub Pages
+- **Escopo:** visão, princípios, modelos sanitizados, governança conceitual, linhas vivas, casos de uso públicos ampliados, documentação pública e vitrine GitHub Pages
 - **Licença:** CC BY-NC 4.0
 
 ### Propósito
@@ -70,6 +70,7 @@ Sistemas de IA se tornam mais úteis quando combinados com:
 - glossário;
 - roadmap público;
 - exemplos sanitizados de continuidade e curadoria;
+- casos de uso públicos para estudantes, criadores, pesquisadores e equipes pequenas;
 - exemplos sanitizados de linhas vivas de projeto;
 - modelo visual público de separação público/privado;
 - diagrama público seguro da arquitetura;
@@ -132,6 +133,7 @@ O objetivo é criar uma superfície pública que inspire pessoas a protegerem se
 - [x] Publicar e validar a vitrine pública no GitHub Pages
 - [x] Criar exemplos sanitizados de linhas vivas de projeto
 - [x] Criar material visual público sobre separação público/privado
+- [x] Ampliar casos de uso públicos para estudantes, criadores, pesquisadores e equipes pequenas
 - [x] Preparar release pública v0.2.2-public-living-lines
 
 ### Segurança
@@ -167,7 +169,7 @@ https://proftectiagocosta-hash.github.io/cerebro-tendoshk-public/
 - **Status:** public documentation layer and published showcase
 - **Version:** 0.2.2
 - **Core:** private by design
-- **Scope:** vision, principles, sanitized templates, conceptual governance, living lines, public documentation, and GitHub Pages showcase
+- **Scope:** vision, principles, sanitized templates, conceptual governance, living lines, expanded public use cases, public documentation, and GitHub Pages showcase
 - **License:** CC BY-NC 4.0
 
 ### Purpose
@@ -206,6 +208,7 @@ AI systems become more useful when paired with:
 - glossary;
 - public roadmap;
 - sanitized examples of continuity and curation;
+- public use cases for students, creators, researchers, and small teams;
 - sanitized examples of living project lines;
 - public visual model of public/private separation;
 - safe public architecture diagram;
@@ -227,13 +230,13 @@ This repository does not include:
 - sensitive project history;
 - complete private-system structure;
 - internal mechanisms of the operational core;
-- private masters, routines, or tools in executable form.
+- private masters, routines, or executable tools.
 
 ### Philosophy
 
-The Cérebro Tendoshk is not merely a folder structure. It is an attempt to turn continuity, memory, intention, and project evolution into architecture.
+Cérebro Tendoshk is not just a folder structure. It is an attempt to turn continuity, memory, intention, and project evolution into architecture.
 
-The idea is simple and demanding: a good idea should not die because a conversation ended. An important decision should not disappear because it stayed trapped in an old chat. A living project should not restart from zero every time context breaks.
+The idea is simple and demanding: a good idea should not die because a conversation ended. An important decision should not disappear because it was trapped in an old chat. A living project should not restart from zero every time context breaks.
 
 The goal is to create a public surface that inspires people to protect their own thinking processes without exposing the private heart of what they build.
 
@@ -262,20 +265,21 @@ The goal is to create a public surface that inspires people to protect their own
 - [x] Expand the initial glossary
 - [x] Document public/private boundaries
 - [x] Define CC BY-NC 4.0 license
-- [x] Prepare a safe public architecture diagram
+- [x] Prepare a safe architecture diagram
 - [x] Refine public documentation with stronger Tendoshk identity
 - [x] Update the showcase to v0.2.0 with focus on public continuity governance
 - [x] Publish and validate the public showcase on GitHub Pages
 - [x] Create sanitized examples of living project lines
 - [x] Create public visual material about public/private separation
+- [x] Expand public use cases for students, creators, researchers, and small teams
 - [x] Prepare public release v0.2.2-public-living-lines
 
 ### Security
 
-This is a public showcase repository. Sensitive material must never be committed here.
+This is a public presentation repository. Sensitive material must never be sent here.
 
-See [`SECURITY.md`](SECURITY.md) for the public safety policy.
+See [`SECURITY.md`](SECURITY.md) for the public security policy.
 
 ### License
 
-This repository is licensed under [`CC BY-NC 4.0`](LICENSE.md) for public documentation and conceptual material. Commercial use is not permitted without prior authorization.
+This repository is licensed under [`CC BY-NC 4.0`](LICENSE.md) for public documentation and conceptual material. Commercial use is not allowed without prior authorization.
