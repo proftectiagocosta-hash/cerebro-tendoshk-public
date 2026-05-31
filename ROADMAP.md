@@ -52,11 +52,11 @@
 - [x] Preparar documentação da release v0.2.2-public-living-lines
 - [x] Publicar release v0.2.2-public-living-lines
 - [x] Criar material visual público sobre separação entre camada pública e núcleo reservado
+- [x] Ampliar casos de uso para estudantes, criadores, pesquisadores e equipes pequenas
 - [ ] Continuar publicando novas versões apenas quando houver avanço conceitual real, e não por atualização cosmética
 
 ### Fase 6 — Próximas evoluções públicas possíveis
 
-- [ ] Ampliar casos de uso para estudantes, criadores, pesquisadores e equipes pequenas
 - [ ] Avaliar uma versão pública em inglês mais polida para audiência internacional
 
 ---
@@ -109,9 +109,9 @@
 - [x] Prepare documentation for release v0.2.2-public-living-lines
 - [x] Publish release v0.2.2-public-living-lines
 - [x] Create public visual material about separation between public layer and reserved core
+- [x] Expand use cases for students, creators, researchers, and small teams
 - [ ] Continue publishing new public versions only when there is real conceptual progress, not cosmetic change
 
 ### Phase 6 — Possible next public evolutions
 
-- [ ] Expand use cases for students, creators, researchers, and small teams
 - [ ] Evaluate a more polished English public version for an international audience
