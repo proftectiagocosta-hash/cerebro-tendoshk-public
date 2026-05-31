@@ -8,6 +8,16 @@
 
 Todas as mudanças públicas relevantes de documentação serão registradas aqui.
 
+### Documentação — Reforços pontuais em inglês na vitrine HTML
+
+- Registrada a decisão NRO-PUBLIC-11D-DOC de manter reforços pontuais em inglês na vitrine HTML.
+- Adicionados ou ajustados blocos curtos `International overview` nas páginas HTML principais.
+- Corrigidas referências visíveis defasadas de `v0.2.1` para `v0.2.2` nas páginas HTML aplicáveis.
+- Mantido o `README.md` como documentação bilíngue principal.
+- Decidido não criar estrutura `site/en/**` nesta etapa.
+- Mantida linguagem pública, sanitizada e conceitual.
+- Nenhum workflow, deploy, release ou tag foi executado nesta alteração documental.
+
 ### Documentação — Casos de uso públicos ampliados
 
 - Ampliados os casos de uso públicos do Cérebro Tendoshk para quatro perfis: estudantes, criadores, pesquisadores e equipes pequenas.
@@ -77,6 +87,16 @@ Todas as mudanças públicas relevantes de documentação serão registradas aqu
 ## English
 
 All notable public documentation changes will be recorded here.
+
+### Documentation — Short English reinforcements in the HTML showcase
+
+- Recorded the NRO-PUBLIC-11D-DOC decision to keep short English reinforcements in the HTML showcase.
+- Added or adjusted short `International overview` blocks in the main HTML pages.
+- Corrected visible outdated `v0.2.1` references to `v0.2.2` where applicable.
+- Kept `README.md` as the main bilingual documentation surface.
+- Decided not to create a `site/en/**` structure at this stage.
+- Preserved public, sanitized and conceptual language.
+- No workflow, deploy, release or tag was executed for this documentation change.
 
 ### Documentation — Expanded public use cases
 
