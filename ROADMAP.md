@@ -53,11 +53,14 @@
 - [x] Publicar release v0.2.2-public-living-lines
 - [x] Criar material visual público sobre separação entre camada pública e núcleo reservado
 - [x] Ampliar casos de uso para estudantes, criadores, pesquisadores e equipes pequenas
+- [x] Manter reforços pontuais em inglês na vitrine HTML; estrutura bilíngue completa fica como possibilidade futura
 - [ ] Continuar publicando novas versões apenas quando houver avanço conceitual real, e não por atualização cosmética
 
 ### Fase 6 — Próximas evoluções públicas possíveis
 
-- [ ] Avaliar uma versão pública em inglês mais polida para audiência internacional
+- [ ] Avaliar se a sequência pública 11A-11D justifica nova release pública
+- [ ] Avaliar workflow Pages para validar blocos internacionais, se aprovado
+- [ ] Avaliar estrutura bilíngue completa somente se houver necessidade pública real
 
 ---
 
@@ -110,8 +113,11 @@
 - [x] Publish release v0.2.2-public-living-lines
 - [x] Create public visual material about separation between public layer and reserved core
 - [x] Expand use cases for students, creators, researchers, and small teams
+- [x] Keep short English reinforcements in the HTML showcase; a full bilingual structure remains a future possibility
 - [ ] Continue publishing new public versions only when there is real conceptual progress, not cosmetic change
 
 ### Phase 6 — Possible next public evolutions
 
-- [ ] Evaluate a more polished English public version for an international audience
+- [ ] Evaluate whether the public 11A-11D sequence justifies a new public release
+- [ ] Evaluate the Pages workflow for validating international blocks, if approved
+- [ ] Evaluate a full bilingual structure only if there is real public need
