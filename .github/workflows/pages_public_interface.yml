@@ -57,11 +57,11 @@ jobs:
           fi
 
           grep -qi 'sanitiz' site/index.html
-          grep -qi 'núcleo privado\|nucleo privado' site/index.html
-          grep -qi 'não contém\|nao contem' site/index.html
+          grep -qi 'vitrine pública\|vitrine publica' site/index.html
+          grep -qi 'limites públicos\|limites publicos\|limites' site/index.html
           grep -qi 'governança de estado\|governanca de estado' site/index.html
           grep -qi 'linhas vivas' site/index.html
-          grep -qi 'separação visual\|separacao visual\|separação público\|separacao publico' site/index.html
+          grep -qi 'separação visual\|separacao visual\|separação entre camadas\|separacao entre camadas' site/index.html
 
           for page in site/*.html; do
             grep -qi '<!doctype html>' "$page"
