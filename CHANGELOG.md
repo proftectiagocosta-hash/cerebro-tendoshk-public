@@ -8,6 +8,16 @@
 
 Todas as mudanças públicas relevantes de documentação serão registradas aqui.
 
+### Documentação — Casos de uso públicos ampliados
+
+- Ampliados os casos de uso públicos do Cérebro Tendoshk para quatro perfis: estudantes, criadores, pesquisadores e equipes pequenas.
+- Atualizado `docs/casos_de_uso.md` com problema típico, ajuda conceitual, exemplo público sanitizado e limite público claro para cada perfil.
+- Atualizada a página `site/casos-de-uso.html` com cards navegáveis e aviso de escopo público.
+- Atualizado o README público para reconhecer os casos de uso públicos ampliados.
+- Atualizado o roadmap público marcando a ampliação como concluída.
+- Mantida a separação entre documentação pública e núcleo operacional privado.
+- Nenhuma release/tag foi criada nesta alteração documental.
+
 ### 0.2.2 — Linhas vivas públicas
 
 - Consolidada a frente pública de linhas vivas de projeto.
@@ -67,6 +77,16 @@ Todas as mudanças públicas relevantes de documentação serão registradas aqu
 ## English
 
 All notable public documentation changes will be recorded here.
+
+### Documentation — Expanded public use cases
+
+- Expanded public Cérebro Tendoshk use cases for four profiles: students, creators, researchers, and small teams.
+- Updated `docs/casos_de_uso.md` with a typical problem, conceptual help, sanitized public example, and clear public boundary for each profile.
+- Updated `site/casos-de-uso.html` with navigable cards and a public-scope notice.
+- Updated the public README to recognize the expanded public use cases.
+- Updated the public roadmap marking the expansion as completed.
+- Preserved the separation between public documentation and the private operational core.
+- No release/tag was created for this documentation change.
 
 ### 0.2.2 — Public living lines
 
