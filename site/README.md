@@ -9,9 +9,10 @@ camada pública
 site estático
 conteúdo conceitual
 sem núcleo operacional privado
-vitrine v0.2.1
+vitrine v0.2.2
 navegação interna entre páginas HTML
 linhas vivas públicas validadas
+separação público/privado como material visual público
 ```
 
 ## O que este site apresenta
@@ -23,6 +24,7 @@ linhas vivas públicas validadas
 - linhas vivas de projeto como conceito público;
 - exemplos sanitizados de linhas vivas;
 - separação entre público e privado;
+- material visual público sobre limites entre camada pública e camada privada;
 - páginas internas da própria vitrine publicada;
 - casos de uso públicos e sanitizados;
 - aviso explícito de sanitização.
@@ -35,11 +37,20 @@ manifesto.html
 arquitetura.html
 governanca-de-estado.html
 linhas-vivas.html
+separacao-publico-privado.html
 casos-de-uso.html
 limites-publicos.html
 roadmap.html
 release.html
 ```
+
+## Material público complementar
+
+```txt
+docs/separacao_publico_privado_visual.md
+```
+
+O arquivo acima descreve, em linguagem pública e sanitizada, a separação conceitual entre o que pode ser mostrado na vitrine pública e o que deve permanecer fora da publicação.
 
 ## O que este site não contém
 
@@ -61,16 +72,17 @@ EV-21 — GitHub Pages / publicação controlada da vitrine pública sanitizada
 
 A publicação deve usar somente o conteúdo deste diretório `site/`.
 
-## Ajuste v0.2.1
+## Ajuste v0.2.2
 
-A vitrine pública foi alinhada à versão `0.2.1` para refletir melhor:
+A vitrine pública foi alinhada à versão `0.2.2` para refletir melhor:
 
 ```txt
 governança pública de continuidade
 governança de estado como página interna
 linhas vivas como página interna validada
+separação público/privado como página interna
+material visual público sobre limites de publicação
 retomada de projetos vivos
-separação público/privado
 casos de uso públicos
 navegação local dentro da vitrine publicada
 ```
@@ -84,6 +96,19 @@ linhas_vivas_publicas = sim
 site/linhas-vivas.html = presente no artifact
 href="linhas-vivas.html" = validado no index
 GitHub Pages = success
+```
+
+## Validação documental NRO-PUBLIC-11A-DOC
+
+```txt
+site/separacao-publico-privado.html = presente
+href="separacao-publico-privado.html" = validado no index
+docs/separacao_publico_privado_visual.md = presente
+site/README.md = atualizado para v0.2.2
+workflow executado = não
+deploy executado = não
+release criada = não
+tag criada = não
 ```
 
 ## Regra de manutenção
