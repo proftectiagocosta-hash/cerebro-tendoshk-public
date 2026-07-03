@@ -1,5 +1,7 @@
 # Cérebro Tendoshk — Visão Geral Pública / Public Overview
 
+![Cyber banner](https://raw.githubusercontent.com/proftectiagocosta-hash/mli-knot-mind-public/main/assets/matrix-inspired-banner.gif)
+
 ![Status](https://img.shields.io/badge/status-preserved%20public%20showcase-blue)
 ![Core](https://img.shields.io/badge/core-private%20by%20design-darkgreen)
 ![Version](https://img.shields.io/badge/version-0.2.2-lightgrey)
