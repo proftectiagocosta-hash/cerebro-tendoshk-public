@@ -1,8 +1,9 @@
 # Cérebro Tendoshk — Visão Geral Pública / Public Overview
 
-![Status](https://img.shields.io/badge/status-public%20overview-blue)
+![Status](https://img.shields.io/badge/status-preserved%20public%20showcase-blue)
 ![Core](https://img.shields.io/badge/core-private%20by%20design-darkgreen)
 ![Version](https://img.shields.io/badge/version-0.2.2-lightgrey)
+![Pause](https://img.shields.io/badge/public%20evolution-paused%20since%202026--06--19-orange)
 ![Language](https://img.shields.io/badge/language-PT--BR%20%7C%20EN-informational)
 ![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-orange)
 
@@ -12,11 +13,18 @@
 
 ## Português
 
+> **Estado público atual:** vitrine pública preservada.  
+> **Versão pública preservada:** 0.2.2.  
+> **Pausa pública registrada em:** 2026-06-19.  
+> **Documento de referência:** [`docs/PAUSA_PUBLICA_2026_06_19.md`](docs/PAUSA_PUBLICA_2026_06_19.md).
+
 O **Cérebro Tendoshk** é uma arquitetura pública conceitual para continuidade entre conversas, curadoria de memória, preservação de decisões, governança de estado e organização de projetos longos com apoio de IA.
 
 Ele nasce de um problema concreto: ideias importantes se perdem, decisões ficam espalhadas, projetos recomeçam do zero e a continuidade entre sessões, ambientes e ferramentas se quebra. A proposta é transformar esse fluxo fragmentado em uma camada organizada, revisável, segura e retomável de continuidade cognitiva.
 
-Este repositório é intencionalmente público e sanitizado. Ele apresenta visão, princípios, modelos fictícios e documentação conceitual. A implementação operacional completa, os registros reais, os checkpoints reais e os mecanismos internos permanecem fora deste repositório público.
+Este repositório representa a **camada pública sanitizada** do Cérebro Tendoshk. Ele apresenta visão, princípios, modelos fictícios e documentação conceitual. A implementação operacional completa, os registros reais, os checkpoints reais e os mecanismos internos permanecem fora desta camada pública.
+
+A partir da pausa pública registrada em 2026-06-19, esta camada passa a ser tratada como **vitrine preservada**: válida como referência conceitual, mas sem compromisso de novas versões públicas enquanto não houver avanço conceitual real e decisão explícita de retomada.
 
 ### Site público
 
@@ -28,9 +36,10 @@ https://proftectiagocosta-hash.github.io/cerebro-tendoshk-public/
 
 ### Status público
 
-- **Status:** camada pública de documentação e vitrine publicada
+- **Status:** vitrine pública preservada
 - **Versão:** 0.2.2
 - **Núcleo:** privado por design
+- **Evolução pública ativa:** pausada desde 2026-06-19
 - **Escopo:** visão, princípios, modelos sanitizados, governança conceitual, linhas vivas, casos de uso públicos ampliados, documentação pública e vitrine GitHub Pages
 - **Licença:** CC BY-NC 4.0
 
@@ -77,7 +86,7 @@ Sistemas de IA se tornam mais úteis quando combinados com:
 - documentação conceitual sobre governança de estado;
 - documentação conceitual sobre separação público/privado;
 - vitrine pública publicada via GitHub Pages;
-- evolução pública controlada da vitrine.
+- registro público de pausa e preservação da vitrine.
 
 ### O que este repositório não contém
 
@@ -104,6 +113,7 @@ O objetivo é criar uma superfície pública que inspire pessoas a protegerem se
 
 ### Documentação principal
 
+- [`docs/PAUSA_PUBLICA_2026_06_19.md`](docs/PAUSA_PUBLICA_2026_06_19.md)
 - [`MANIFESTO.md`](MANIFESTO.md)
 - [`SECURITY.md`](SECURITY.md)
 - [`ROADMAP.md`](ROADMAP.md)
@@ -135,10 +145,12 @@ O objetivo é criar uma superfície pública que inspire pessoas a protegerem se
 - [x] Criar material visual público sobre separação público/privado
 - [x] Ampliar casos de uso públicos para estudantes, criadores, pesquisadores e equipes pequenas
 - [x] Preparar release pública v0.2.2-public-living-lines
+- [x] Registrar pausa pública e preservar a vitrine como referência conceitual
+- [ ] Retomar evolução pública apenas com decisão explícita e avanço conceitual real
 
 ### Segurança
 
-Este é um repositório público de apresentação. Material sensível nunca deve ser enviado para cá.
+Esta é uma camada pública de apresentação. Material sensível nunca deve ser enviado para cá.
 
 Consulte [`SECURITY.md`](SECURITY.md) para ver a política pública de segurança.
 
@@ -150,11 +162,18 @@ Este repositório está licenciado sob [`CC BY-NC 4.0`](LICENSE.md) para documen
 
 ## English
 
+> **Current public state:** preserved public showcase.  
+> **Preserved public version:** 0.2.2.  
+> **Public pause recorded on:** 2026-06-19.  
+> **Reference document:** [`docs/PAUSA_PUBLICA_2026_06_19.md`](docs/PAUSA_PUBLICA_2026_06_19.md).
+
 The **Cérebro Tendoshk** is a public conceptual architecture for continuity across conversations, memory curation, decision preservation, state governance, and long-term project organization with AI assistance.
 
 It comes from a concrete problem: important ideas get lost, decisions become scattered, projects restart from zero, and continuity across sessions, environments, and tools breaks down. The proposal is to turn this fragmented flow into an organized, reviewable, safe, and resumable layer of cognitive continuity.
 
-This repository is intentionally public and sanitized. It presents vision, principles, fictional templates, and conceptual documentation. The complete operational implementation, real records, real checkpoints, and internal mechanisms remain outside this public repository.
+This repository represents the **sanitized public layer** of Cérebro Tendoshk. It presents vision, principles, fictional templates, and conceptual documentation. The complete operational implementation, real records, real checkpoints, and internal mechanisms remain outside this public layer.
+
+Since the public pause recorded on 2026-06-19, this layer is treated as a **preserved showcase**: still valid as conceptual reference, but not expected to receive new public versions unless there is real conceptual progress and an explicit resumption decision.
 
 ### Public site
 
@@ -166,9 +185,10 @@ https://proftectiagocosta-hash.github.io/cerebro-tendoshk-public/
 
 ### Public status
 
-- **Status:** public documentation layer and published showcase
+- **Status:** preserved public showcase
 - **Version:** 0.2.2
 - **Core:** private by design
+- **Active public evolution:** paused since 2026-06-19
 - **Scope:** vision, principles, sanitized templates, conceptual governance, living lines, expanded public use cases, public documentation, and GitHub Pages showcase
 - **License:** CC BY-NC 4.0
 
@@ -215,7 +235,7 @@ AI systems become more useful when paired with:
 - conceptual documentation about state governance;
 - conceptual documentation about public/private separation;
 - public showcase published through GitHub Pages;
-- controlled public evolution of the showcase.
+- public pause record preserving the showcase.
 
 ### What this repository does not contain
 
@@ -242,6 +262,7 @@ The goal is to create a public surface that inspires people to protect their own
 
 ### Main documentation
 
+- [`docs/PAUSA_PUBLICA_2026_06_19.md`](docs/PAUSA_PUBLICA_2026_06_19.md)
 - [`MANIFESTO.md`](MANIFESTO.md)
 - [`SECURITY.md`](SECURITY.md)
 - [`ROADMAP.md`](ROADMAP.md)
@@ -273,10 +294,12 @@ The goal is to create a public surface that inspires people to protect their own
 - [x] Create public visual material about public/private separation
 - [x] Expand public use cases for students, creators, researchers, and small teams
 - [x] Prepare public release v0.2.2-public-living-lines
+- [x] Record the public pause and preserve the showcase as conceptual reference
+- [ ] Resume public evolution only with explicit decision and real conceptual progress
 
 ### Security
 
-This is a public presentation repository. Sensitive material must never be sent here.
+This is a public presentation layer. Sensitive material must never be sent here.
 
 See [`SECURITY.md`](SECURITY.md) for the public security policy.
 
