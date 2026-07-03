@@ -6,6 +6,14 @@
 
 ## Português
 
+### Estado atual — Pausa pública preservada
+
+- [x] Registrar pausa pública da camada de vitrine em `docs/PAUSA_PUBLICA_2026_06_19.md`
+- [x] Preservar a versão pública `0.2.2` como referência conceitual sanitizada
+- [x] Alinhar o README público com o estado de pausa
+- [x] Manter a separação entre camada pública e núcleo reservado
+- [ ] Retomar evolução pública apenas com decisão explícita e avanço conceitual real
+
 ### Fase 1 — Camada pública segura
 
 - [x] Criar README público
@@ -54,9 +62,12 @@
 - [x] Criar material visual público sobre separação entre camada pública e núcleo reservado
 - [x] Ampliar casos de uso para estudantes, criadores, pesquisadores e equipes pequenas
 - [x] Manter reforços pontuais em inglês na vitrine HTML; estrutura bilíngue completa fica como possibilidade futura
-- [ ] Continuar publicando novas versões apenas quando houver avanço conceitual real, e não por atualização cosmética
+- [x] Registrar pausa pública preservando a vitrine como referência conceitual
+- [ ] Continuar publicando novas versões apenas quando houver avanço conceitual real, decisão explícita de retomada e preservação da segurança pública
 
 ### Fase 6 — Próximas evoluções públicas possíveis
+
+Estas possibilidades ficam suspensas durante a pausa pública, até nova decisão explícita:
 
 - [ ] Avaliar se a sequência pública 11A-11D justifica nova release pública
 - [ ] Avaliar workflow Pages para validar blocos internacionais, se aprovado
@@ -65,6 +76,14 @@
 ---
 
 ## English
+
+### Current state — Preserved public pause
+
+- [x] Record the public pause of the showcase layer in `docs/PAUSA_PUBLICA_2026_06_19.md`
+- [x] Preserve public version `0.2.2` as sanitized conceptual reference
+- [x] Align the public README with the paused state
+- [x] Preserve the separation between the public layer and the reserved core
+- [ ] Resume public evolution only with an explicit decision and real conceptual progress
 
 ### Phase 1 — Safe public layer
 
@@ -114,9 +133,12 @@
 - [x] Create public visual material about separation between public layer and reserved core
 - [x] Expand use cases for students, creators, researchers, and small teams
 - [x] Keep short English reinforcements in the HTML showcase; a full bilingual structure remains a future possibility
-- [ ] Continue publishing new public versions only when there is real conceptual progress, not cosmetic change
+- [x] Record the public pause and preserve the showcase as conceptual reference
+- [ ] Continue publishing new public versions only when there is real conceptual progress, explicit resumption decision, and preserved public safety
 
 ### Phase 6 — Possible next public evolutions
+
+These possibilities remain suspended during the public pause until a new explicit decision is made:
 
 - [ ] Evaluate whether the public 11A-11D sequence justifies a new public release
 - [ ] Evaluate the Pages workflow for validating international blocks, if approved
