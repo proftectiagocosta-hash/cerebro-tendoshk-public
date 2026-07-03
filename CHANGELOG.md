@@ -8,6 +8,17 @@
 
 Todas as mudanças públicas relevantes de documentação serão registradas aqui.
 
+### Documentação — Pausa pública da vitrine
+
+- Registrada a pausa pública da camada de vitrine em `docs/PAUSA_PUBLICA_2026_06_19.md`.
+- Preservada a versão pública `0.2.2` como referência conceitual sanitizada.
+- Atualizado o `README.md` para indicar estado público preservado, pausa desde 2026-06-19 e retomada apenas mediante decisão explícita.
+- Atualizado o `ROADMAP.md` para suspender próximas evoluções públicas enquanto a pausa estiver vigente.
+- Atualizadas as páginas HTML principais da vitrine para refletir o estado de vitrine preservada.
+- Mantida a separação entre documentação pública e núcleo reservado.
+- Nenhum material sensível foi adicionado.
+- Nenhuma release, tag ou mudança funcional foi criada por esta alteração documental.
+
 ### Documentação — Reforços pontuais em inglês na vitrine HTML
 
 - Registrada a decisão NRO-PUBLIC-11D-DOC de manter reforços pontuais em inglês na vitrine HTML.
@@ -87,6 +98,17 @@ Todas as mudanças públicas relevantes de documentação serão registradas aqu
 ## English
 
 All notable public documentation changes will be recorded here.
+
+### Documentation — Public showcase pause
+
+- Recorded the public pause of the showcase layer in `docs/PAUSA_PUBLICA_2026_06_19.md`.
+- Preserved public version `0.2.2` as sanitized conceptual reference.
+- Updated `README.md` to indicate preserved public state, pause since 2026-06-19, and resumption only through explicit decision.
+- Updated `ROADMAP.md` to suspend possible next public evolutions while the pause is active.
+- Updated the main HTML showcase pages to reflect the preserved-showcase state.
+- Preserved the separation between public documentation and the reserved core.
+- No sensitive material was added.
+- No release, tag, or functional change was created by this documentation update.
 
 ### Documentation — Short English reinforcements in the HTML showcase
 
